@@ -1,0 +1,132 @@
+Guardian
+
+Revenant
+
+Warrior
+
+Engineer
+
+Ranger
+Celestial Avatar		31869, 33557
+Release Celestial Avatar 31411
+Beastmode				42944
+Leave Beastmode			43014
+Unflinching Fortitude	45797			stout
+Primal Cry				40588			deadly
+Prelude Lash			43375			versatile
+Worldly Impact			40729, 42809	ferocious
+Spiritual Reprieve		44626			supportive
+Lunge					71282			aether hunter
+Ley-Line Vortex			70889			aether hunter
+Protection				42717			armored fish
+Chomp					44885			armored fish
+Bite					43136			bear
+Defy Pain				43060			bear
+Bumble					75771			janthiri bee
+Stinging Sorrow			75814			janthiri bee
+Swoop					44991			bird
+Quickening Screech		42042			bird
+Rain of Spikes			41206			bristleback
+Sharpen Spines			45479			bristleback
+Crippling Leap			43726			canine
+Brutal Charge			42894			canine
+Electrocute				71499			sky-chak striker
+Spit Goop				71546			sky-chak striker
+Tail Lash				43068			devourer
+Devourer Retreat		41461			devourer
+Chomp					41537			drake
+Tail Swipe				41575			drake
+Crippling Anguish		44384			fanged iboga
+Narcotic Spores			40111			fanged iboga
+Bite					40625			feline
+Maul					44514			feline
+Phase Pounce			67382			white tiger
+Call Lightning			43788			jacaranda
+Photosynthesize			43701			jacaranda
+Healing Cloud			43186			jellyfish
+Dark Water				41837			jellyfish
+Harmonic Cry			44617			moa
+Frenzied Attack			43548			moa
+Dash					64038			phoenix
+Wing Buffet				41908			phoenix, wyvern
+Maul					41406			porcine
+Brutal Charge			46432			porcine
+Kick					41524			rock gazelle
+Charge					45743			rock gazelle
+Charging Bite			42797			shark
+Fear					44360			shark
+Takedown				42907			smokescale
+Smoke Assault			40255			smokescale
+Staring Void			72851			spinegazer
+Tormenting Visions		72636			spinegazer
+Entangling Web			44097			spider
+Poison Gas				43671			spider
+Slam					64699			siege turtle
+Heavy Shot				66258			siege turtle
+Undead Plague			64882			wallow
+Battle Maul				73733			warclaw
+Bop						73938			warclaw
+Tail Lash				46386			wyvern
+Venomous Outburst		63209			unleashed pet
+Rending Vines			63258			unleashed pet
+Enveloping Haze			63094			unleashed pet
+
+Thief
+Steal					13014, 13109
+Deadeye's Mark			43390
+Siphon					63067
+Enter Shadow Shroud 	63155
+Exit Shadow Shroud 		63251
+Blinding Tuft			 1148			stolen
+Bone Crack				 1113			stolen
+Branch Bash				 1114			stolen
+Club Shock Wave			 1119			stolen
+Consume Plasma			 1123			stolen
+Drink					 1116			stolen
+Eat Egg					 1125			stolen
+Essence Sap				31438			stolen
+Exploding Venom Sac		 1149			stolen
+Healing Seed			 1139			stolen
+Ice Shard Stab			 1129			stolen
+Mace Head Crack			 1131			stolen
+Rusty Scrap Strike		 1134			stolen
+Shoot Rifle				 1132			stolen
+Skull Fear				 1141			stolen
+Throw Coral Shard		 1120			stolen
+Throw Crystal Shard		 1121			stolen
+Throw Feathers			 1126			stolen
+Throw Gear				 1127			stolen
+Throw Gunk				 1110, 16460, 45094		stolen
+Throw Lava Rock			 1130			stolen
+Throw Net				 1168			stolen
+Throw Rock				 1133, 1155		stolen
+Throw Scale				 1135			stolen
+Throw Vine				 1150			stolen
+Tooth Stab				 1146			stolen
+Use Scepter				 1138, 1144, 1170		stolen
+Whirling Axe			 1162			stolen
+Throw Enchanted Ice		59154			stolen
+Throw Unstable Reagent	59324			stolen
+Throw Cursed Artifact	59485			stolen
+Drink Ambrosia			59328			stolen
+Blessing Seed			59327			stolen
+Time in a Bottle		59447			stolen
+Detonate Plasma			49063			stolen
+Unstable Artifact		49123			stolen
+Soul Stone Venom		49052			stolen
+Throw Magnetic Bomb		49112			stolen
+Steal Defenses			43768			stolen
+Steal Resistance		40133			stolen
+Steal Strength			40904			stolen
+Steal Durability		43373			stolen
+Steal Mobility			44526			stolen
+Steal Precision			40888			stolen
+Steal Warmth			39960			stolen
+Steal Time				42863			stolen
+Steal Health			40903			stolen
+
+Elementalist
+
+Mesmer
+
+Necromancer

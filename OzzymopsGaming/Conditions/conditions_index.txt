@@ -1,0 +1,14 @@
+Bleeding		736
+Burning			737
+Confusion		861
+Poisoned		723
+Torment			19426, 21632
+Blinded			720
+Chilled			722
+Crippled		721
+Fear			791
+Immobile		727
+Slow			26766
+Taunt			27705
+Weakness		742
+Vulnerability	738
