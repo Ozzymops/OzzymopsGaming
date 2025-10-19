@@ -1,15 +1,13 @@
 General
-	Health
-		Orb in the middle, profession symbol in the middle, HP number
-		Ticks based on selected traits / runes
-	Barrier (overlay)
-	Endurance
-	AutoAttack
-		Ranger Dagger 4-attacks
-		Ranger Spear Stealth Attack
-		Thief Stealth Attack
-		Untamed Ambush
-		Mirage Ambush
+	Health bar
+	Barrier overlay
+	Health & barrier text
+	Endurance bar
+	Auto Attack
+	- Stealth Attack for Ranger and Thief
+	- Ambush for Mirage
+	- Unleashed Ambush for Untamed
+	- Special graphic for Ranger's mainhand Dagger quadruple chain attack
 	Boons / Conditions
 	Cooldowns
 
