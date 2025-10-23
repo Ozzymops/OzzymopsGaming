@@ -309,6 +309,18 @@ Stun: 872
 Superspeed: 5974
 Unblockable: 18843, 29896
 
+## Mount
+Bond of Life Skill: 49128
+Bond of Life Effect: 50216
+Bond of Vigor Skill: 52571
+Bond of Vigor Effect: 51762
+Bond of Faith Skill: 54032
+Bond of Faith (Evasion): 54118
+Bond of Faith (No Mount Use): 43702, 49494, 60313
+Bond of Faith (Gliding Disabled): 34298
+Stealth Skill: 60537, 61081
+Stealth Effect: 60469
+
 ## Guardian
 Shield of Wrath:
 Binding Blade:

@@ -39,7 +39,7 @@
   "layer": 0,
   "elements": [
     {
-      "enabled": true,
+      "enabled": false,
       "name": "General",
       "anchor": "Parent",
       "pos": [
@@ -6048,6 +6048,1304 @@
                 16.0,
                 16.0
               ]
+            }
+          ]
+        },
+        {
+          "enabled": true,
+          "name": "Bonds",
+          "anchor": "Parent",
+          "pos": [
+            0.0,
+            -32.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": "Inherit",
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "weapons": [],
+              "traits": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Group",
+          "members": [
+            {
+              "enabled": true,
+              "name": "Effects",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                -26.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": "Inherit",
+                "threshold": {
+                  "threshold_type": "Always",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Group",
+              "members": [
+                {
+                  "enabled": true,
+                  "name": "Bond of Life",
+                  "anchor": "Parent",
+                  "pos": [
+                    -48.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        50216
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Mounts\\BondofLife.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Below": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    20.0,
+                    20.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Bond of Life Running Out",
+                  "anchor": "Parent",
+                  "pos": [
+                    -48.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        50216
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": {
+                    "kind": "Pulse",
+                    "period": 800
+                  },
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Mounts\\BondofLife.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Above": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    20.0,
+                    20.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Bond of Vigor",
+                  "anchor": "Parent",
+                  "pos": [
+                    -16.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        51762
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Mounts\\BondofVigor.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Below": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    20.0,
+                    20.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Bond of Life Running Out",
+                  "anchor": "Parent",
+                  "pos": [
+                    -16.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        51762
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": {
+                    "kind": "Pulse",
+                    "period": 800
+                  },
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Mounts\\BondofVigor.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Above": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    20.0,
+                    20.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Stealth",
+                  "anchor": "Parent",
+                  "pos": [
+                    48.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        60469
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Mounts\\Stealth.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Below": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    20.0,
+                    20.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Stealth Running Out",
+                  "anchor": "Parent",
+                  "pos": [
+                    48.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        60469
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": {
+                    "kind": "Pulse",
+                    "period": 800
+                  },
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Mounts\\Stealth.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Above": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    20.0,
+                    20.0
+                  ]
+                }
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "Bond of Life",
+              "anchor": "Parent",
+              "pos": [
+                -48.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Ability": [
+                    49128
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "File": "OzzymopsGaming\\Skills\\Mounts\\BondofLife.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                30.0,
+                30.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "Bond of Life Unavailable",
+              "anchor": "Parent",
+              "pos": [
+                -48.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Ability": [
+                    49128
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "File": "OzzymopsGaming\\Skills\\Mounts\\BondofLife.png"
+              },
+              "tint": [
+                0.39215687,
+                0.39215687,
+                0.39215687,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                30.0,
+                30.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "Bond of Life Cooldown",
+              "anchor": "Parent",
+              "pos": [
+                -47.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Ability": [
+                    49128
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Text",
+              "text": "%c",
+              "font": null,
+              "align": "Center",
+              "scale": 1.0,
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "decoration": "None",
+              "conditions": []
+            },
+            {
+              "enabled": true,
+              "name": "Bond of Vigor",
+              "anchor": "Parent",
+              "pos": [
+                -16.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Ability": [
+                    52571
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "File": "OzzymopsGaming\\Skills\\Mounts\\BondofVigor.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                30.0,
+                30.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "Bond of Vigor Unavailable",
+              "anchor": "Parent",
+              "pos": [
+                -16.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Ability": [
+                    52571
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "File": "OzzymopsGaming\\Skills\\Mounts\\BondofVigor.png"
+              },
+              "tint": [
+                0.39215687,
+                0.39215687,
+                0.39215687,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                30.0,
+                30.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "Bond of Vigor Cooldown",
+              "anchor": "Parent",
+              "pos": [
+                -15.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Ability": [
+                    52571
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Text",
+              "text": "%c",
+              "font": null,
+              "align": "Center",
+              "scale": 1.0,
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "decoration": "None",
+              "conditions": []
+            },
+            {
+              "enabled": true,
+              "name": "Bond of Faith",
+              "anchor": "Parent",
+              "pos": [
+                16.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Ability": [
+                    54032
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "File": "OzzymopsGaming\\Skills\\Mounts\\BondofFaith.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                30.0,
+                30.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "Bond of Faith Unavailable",
+              "anchor": "Parent",
+              "pos": [
+                16.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Ability": [
+                    54032
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "File": "OzzymopsGaming\\Skills\\Mounts\\BondofFaith.png"
+              },
+              "tint": [
+                0.39215687,
+                0.39215687,
+                0.39215687,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                30.0,
+                30.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "Bond of Faith Cooldown",
+              "anchor": "Parent",
+              "pos": [
+                17.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Ability": [
+                    54032
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Text",
+              "text": "%c",
+              "font": null,
+              "align": "Center",
+              "scale": 1.0,
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "decoration": "None",
+              "conditions": []
+            },
+            {
+              "enabled": true,
+              "name": "Stealth",
+              "anchor": "Parent",
+              "pos": [
+                48.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Ability": [
+                    60537,
+                    61081
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "File": "OzzymopsGaming\\Skills\\Mounts\\Stealth.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                30.0,
+                30.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "Stealth Unavailable",
+              "anchor": "Parent",
+              "pos": [
+                48.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Ability": [
+                    60537,
+                    61081
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "File": "OzzymopsGaming\\Skills\\Mounts\\Stealth.png"
+              },
+              "tint": [
+                0.39215687,
+                0.39215687,
+                0.39215687,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                30.0,
+                30.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "Stealth Cooldown",
+              "anchor": "Parent",
+              "pos": [
+                49.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Ability": [
+                    60537,
+                    61081
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Text",
+              "text": "%c",
+              "font": null,
+              "align": "Center",
+              "scale": 1.0,
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "decoration": "None",
+              "conditions": []
             }
           ]
         }
