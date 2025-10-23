@@ -116,8 +116,10 @@
               "trigger": {
                 "source": "Health",
                 "threshold": {
-                  "threshold_type": "Present",
-                  "amount_type": "Intensity"
+                  "threshold_type": {
+                    "Above": 25.0
+                  },
+                  "amount_type": "Percent"
                 }
               },
               "filter": {
@@ -135,6 +137,91 @@
                 }
               },
               "animation": null,
+              "type": "Bar",
+              "progress_kind": "Duration",
+              "max": 25.0,
+              "lower_bound": 0.0,
+              "upper_bound": 1.0,
+              "fill": [
+                1.0,
+                0.1764706,
+                0.0,
+                1.0
+              ],
+              "background": [
+                0.44705883,
+                0.078431375,
+                0.0,
+                0.39215687
+              ],
+              "border_size": 1.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "tick_size": 1.0,
+              "tick_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "size": [
+                128.0,
+                16.0
+              ],
+              "align": "Center",
+              "direction": "Right",
+              "tick_unit": "Percent",
+              "ticks": [
+                0.25,
+                0.5,
+                0.75
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "Health Bar Critical",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": "Health",
+                "threshold": {
+                  "threshold_type": {
+                    "Below": 24.99
+                  },
+                  "amount_type": "Percent"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": {
+                "kind": {
+                  "Shake": {
+                    "intensity": 1.0
+                  }
+                },
+                "period": 100
+              },
               "type": "Bar",
               "progress_kind": "Duration",
               "max": 25.0,
@@ -983,7 +1070,14 @@
                       "ids": []
                     }
                   },
-                  "animation": null,
+                  "animation": {
+                    "kind": {
+                      "Bounce": {
+                        "intensity": 1.0
+                      }
+                    },
+                    "period": 100
+                  },
                   "type": "Icon",
                   "icon": {
                     "File": "OzzymopsGaming\\Auto Attack\\Auto Attack 3-3.png"
@@ -1329,7 +1423,14 @@
                       "ids": []
                     }
                   },
-                  "animation": null,
+                  "animation": {
+                    "kind": {
+                      "Bounce": {
+                        "intensity": 1.0
+                      }
+                    },
+                    "period": 100
+                  },
                   "type": "Icon",
                   "icon": {
                     "File": "OzzymopsGaming\\Auto Attack\\Auto Attack 4-4.png"
@@ -1438,7 +1539,14 @@
                   "ids": []
                 }
               },
-              "animation": null,
+              "animation": {
+                "kind": {
+                  "Bounce": {
+                    "intensity": 1.0
+                  }
+                },
+                "period": 100
+              },
               "type": "Icon",
               "icon": {
                 "File": "OzzymopsGaming\\Special Attack\\Ambush.png"
@@ -1526,7 +1634,14 @@
                   "ids": []
                 }
               },
-              "animation": null,
+              "animation": {
+                "kind": {
+                  "Bounce": {
+                    "intensity": 1.0
+                  }
+                },
+                "period": 100
+              },
               "type": "Icon",
               "icon": {
                 "File": "OzzymopsGaming\\Special Attack\\StealthAttack.png"
@@ -1600,7 +1715,14 @@
                   "ids": []
                 }
               },
-              "animation": null,
+              "animation": {
+                "kind": {
+                  "Bounce": {
+                    "intensity": 1.0
+                  }
+                },
+                "period": 100
+              },
               "type": "Icon",
               "icon": {
                 "File": "OzzymopsGaming\\Special Attack\\UnleashedAmbush.png"
