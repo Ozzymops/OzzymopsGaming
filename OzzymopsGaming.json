@@ -6059,7 +6059,7 @@
             0.0,
             -32.0
           ],
-          "opacity": 1.0,
+          "opacity": 0.5,
           "trigger": {
             "source": "Inherit",
             "threshold": {
@@ -7338,6 +7338,1507 @@
               "font": null,
               "align": "Center",
               "scale": 1.0,
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "decoration": "None",
+              "conditions": []
+            }
+          ]
+        },
+        {
+          "enabled": true,
+          "name": "Siege Turtle Skills",
+          "anchor": "Parent",
+          "pos": [
+            0.0,
+            2.0
+          ],
+          "opacity": 0.5,
+          "trigger": {
+            "source": "Inherit",
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "weapons": [],
+              "traits": [],
+              "mounts": [
+                "SiegeTurtle"
+              ]
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Group",
+          "members": [
+            {
+              "enabled": true,
+              "name": "Open Access",
+              "anchor": "Parent",
+              "pos": [
+                90.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Ability": [
+                    63440
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Always",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "File": "OzzymopsGaming\\Skills\\Mounts\\RestrictAccess.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                48.0,
+                48.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "Restrict Access",
+              "anchor": "Parent",
+              "pos": [
+                90.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Ability": [
+                    63434
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Always",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "File": "OzzymopsGaming\\Skills\\Mounts\\OpenAccess.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                48.0,
+                48.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "Slam",
+              "anchor": "Parent",
+              "pos": [
+                -90.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Ability": [
+                    63475
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "File": "OzzymopsGaming\\Skills\\Mounts\\Slam.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                48.0,
+                48.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "Slam Unavailable",
+              "anchor": "Parent",
+              "pos": [
+                -90.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Ability": [
+                    63475
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "File": "OzzymopsGaming\\Skills\\Mounts\\Slam.png"
+              },
+              "tint": [
+                0.39215687,
+                0.39215687,
+                0.39215687,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                48.0,
+                48.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "Slam Cooldown",
+              "anchor": "Parent",
+              "pos": [
+                -90.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Ability": [
+                    63475
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Text",
+              "text": "%c",
+              "font": "MENOMONIA_BIG_XL",
+              "align": "Center",
+              "scale": 1.2,
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "decoration": "None",
+              "conditions": []
+            }
+          ]
+        },
+        {
+          "enabled": true,
+          "name": "Ley-Line Riding",
+          "anchor": "Parent",
+          "pos": [
+            90.0,
+            2.0
+          ],
+          "opacity": 0.5,
+          "trigger": {
+            "source": "Inherit",
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "weapons": [],
+              "traits": [],
+              "mounts": [
+                "Griffon",
+                "Skyscale"
+              ]
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Group",
+          "members": [
+            {
+              "enabled": true,
+              "name": "Enable Ley-Line Riding",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Ability": [
+                    71692
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Always",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "File": "OzzymopsGaming\\Skills\\Mounts\\DisableLeyLineRiding.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                48.0,
+                48.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "Disable Ley-Line Riding",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Ability": [
+                    71671
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Always",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "File": "OzzymopsGaming\\Skills\\Mounts\\EnableLeyLineRiding.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                48.0,
+                48.0
+              ]
+            }
+          ]
+        },
+        {
+          "enabled": true,
+          "name": "Skyscale Skills",
+          "anchor": "Parent",
+          "pos": [
+            -90.0,
+            2.0
+          ],
+          "opacity": 0.5,
+          "trigger": {
+            "source": "Inherit",
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "weapons": [],
+              "traits": [],
+              "mounts": [
+                "Skyscale"
+              ]
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Group",
+          "members": [
+            {
+              "enabled": true,
+              "name": "Fireball",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Ability": [
+                    70431
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "File": "OzzymopsGaming\\Skills\\Mounts\\Fireball.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                48.0,
+                48.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "Fireball Unavailable",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Ability": [
+                    70431
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "File": "OzzymopsGaming\\Skills\\Mounts\\Fireball.png"
+              },
+              "tint": [
+                0.39215687,
+                0.39215687,
+                0.39215687,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                48.0,
+                48.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "Fireball Ammo",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Ability": [
+                    70431
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Text",
+              "text": "%i",
+              "font": "MENOMONIA_BIG_XL",
+              "align": "Center",
+              "scale": 1.2,
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "decoration": "Outline",
+              "conditions": []
+            },
+            {
+              "enabled": true,
+              "name": "Fireball Cooldown",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Ability": [
+                    70431
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Text",
+              "text": "%c",
+              "font": "MENOMONIA_BIG_XL",
+              "align": "Center",
+              "scale": 1.2,
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "decoration": "None",
+              "conditions": []
+            }
+          ]
+        },
+        {
+          "enabled": true,
+          "name": "Warclaw Skills",
+          "anchor": "Parent",
+          "pos": [
+            0.0,
+            2.0
+          ],
+          "opacity": 0.5,
+          "trigger": {
+            "source": "Inherit",
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "weapons": [],
+              "traits": [],
+              "mounts": [
+                "Warclaw"
+              ]
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Group",
+          "members": [
+            {
+              "enabled": true,
+              "name": "Lance",
+              "anchor": "Parent",
+              "pos": [
+                -90.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Ability": [
+                    74331
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "File": "OzzymopsGaming\\Skills\\Mounts\\Lance.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                48.0,
+                48.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "Lance Unavailable",
+              "anchor": "Parent",
+              "pos": [
+                -90.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Ability": [
+                    74331
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "File": "OzzymopsGaming\\Skills\\Mounts\\Lance.png"
+              },
+              "tint": [
+                0.39215687,
+                0.39215687,
+                0.39215687,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                48.0,
+                48.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "Lance Ammo",
+              "anchor": "Parent",
+              "pos": [
+                -90.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Ability": [
+                    74331
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Text",
+              "text": "%i",
+              "font": "MENOMONIA_BIG_XL",
+              "align": "Center",
+              "scale": 1.2,
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "decoration": "Outline",
+              "conditions": []
+            },
+            {
+              "enabled": true,
+              "name": "Lance Cooldown",
+              "anchor": "Parent",
+              "pos": [
+                -90.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Ability": [
+                    74331
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Text",
+              "text": "%c",
+              "font": "MENOMONIA_BIG_XL",
+              "align": "Center",
+              "scale": 1.2,
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "decoration": "None",
+              "conditions": []
+            },
+            {
+              "enabled": true,
+              "name": "Chain Pull",
+              "anchor": "Parent",
+              "pos": [
+                90.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Ability": [
+                    73984
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "File": "OzzymopsGaming\\Skills\\Mounts\\ChainPull.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                48.0,
+                48.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "Chain Pull Unavailable",
+              "anchor": "Parent",
+              "pos": [
+                90.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Ability": [
+                    73984
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "File": "OzzymopsGaming\\Skills\\Mounts\\ChainPull.png"
+              },
+              "tint": [
+                0.39215687,
+                0.39215687,
+                0.39215687,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                48.0,
+                48.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "Chain Pull Cooldown",
+              "anchor": "Parent",
+              "pos": [
+                90.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Ability": [
+                    73984
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Text",
+              "text": "%c",
+              "font": "MENOMONIA_BIG_XL",
+              "align": "Center",
+              "scale": 1.2,
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "decoration": "None",
+              "conditions": []
+            },
+            {
+              "enabled": true,
+              "name": "Sniff",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                40.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Ability": [
+                    73836
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "File": "OzzymopsGaming\\Skills\\Mounts\\Sniff.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                48.0,
+                48.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "Sniff Unavailable",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                40.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Ability": [
+                    73836
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "File": "OzzymopsGaming\\Skills\\Mounts\\Sniff.png"
+              },
+              "tint": [
+                0.39215687,
+                0.39215687,
+                0.39215687,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                48.0,
+                48.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "Uncover",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                40.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Ability": [
+                    74037
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "File": "OzzymopsGaming\\Skills\\Mounts\\Uncover.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                48.0,
+                48.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "Uncover Unavailable",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                40.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Ability": [
+                    74037
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "File": "OzzymopsGaming\\Skills\\Mounts\\Uncover.png"
+              },
+              "tint": [
+                0.39215687,
+                0.39215687,
+                0.39215687,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                48.0,
+                48.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "Sniff & Uncover Cooldown",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                40.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Ability": [
+                    73836,
+                    74037
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Text",
+              "text": "%c",
+              "font": "MENOMONIA_BIG_XL",
+              "align": "Center",
+              "scale": 1.2,
               "color": [
                 1.0,
                 1.0,

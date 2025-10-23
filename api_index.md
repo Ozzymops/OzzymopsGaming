@@ -315,11 +315,18 @@ Bond of Life Effect: 50216
 Bond of Vigor Skill: 52571
 Bond of Vigor Effect: 51762
 Bond of Faith Skill: 54032
-Bond of Faith (Evasion): 54118
-Bond of Faith (No Mount Use): 43702, 49494, 60313
-Bond of Faith (Gliding Disabled): 34298
 Stealth Skill: 60537, 61081
 Stealth Effect: 60469
+Open Access: 63440
+Restrict Access: 63434
+Enable Ley-Line Riding: 71692
+Disable Ley-Line Riding: 71671
+Slam: 63475
+Fireball: 70431
+Lance: 74331
+Chain Pull: 73984
+Sniff: 73836
+Uncover: 74037
 
 ## Guardian
 Shield of Wrath:
