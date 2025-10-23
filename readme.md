@@ -8,7 +8,7 @@ A list of (planned) features.
 # General
 - Health bar (tremble if below 25%)
 - Barrier bar
-- Health and barrier number (notated as 15.2k)
+- Health and barrier number (notated as ##.#k)
 - Endurance bar (with special case for Daredevil)
 - Auto attack progression graphic (with special case for Ranger's mainhand Dagger; tremble if at final attack)
 - Special attack notification for Stealth Attacks, Ambushes, and Unleashed Ambushes (tremble)
@@ -41,7 +41,7 @@ A list of (planned) features.
 ## Profession Mechanic
 - Virtue of Justice, Virtue of Resolve, Virtue of Courage (Core F1, F2, F3): cooldowns
 - Spear of Justice, Hunter's Verdict, Wings of Resolve, Shield of Courage (Dragonhunter F1, F2, F3): cooldowns
-- Firebrand's Pages (modified by Archivist of Whispers)
+- Firebrand's Pages (Firebrand Resource): icons visible above Health bar; modified by Archivist of Whispers
 - Enter Radiant Shroud (Luminary F4): cooldown
 ## Traits
 - Zeal => Furious Focus: glowing border around Fury
@@ -117,7 +117,7 @@ A list of (planned) features.
 - "We Will Never Yield!" (Paragon Elite): effect duration
 ## Profession Mechanics
 - Adrenaline (Core Resource): bar visible above Health bar; ticks at 33% and 66%, single tick at 50% if Spellbreaker; tremble if full)
-- Burst (Core F1): available Burst and cooldown
+- Burst (Core F1): available Burst, resource availability, and cooldown
 - Berserk (Berserker F2): cooldown (tremble if Adrenaline is full)
 - Eternal Champion (Berserker Trait): visible if trait is slotted and while Berserk
 - Primal Burst (Berserker F1): available Primal Burst and cooldown
@@ -151,22 +151,12 @@ A list of (planned) features.
 - Spectrum Shield (Holosmith Utility): Spectrum Shield effect duration
 - Mitotic State, Solid State, Gaseous State, Plasmatic State (Amalgam Heal and Utilities): effect duration
 ## Profession Mechanics
-- Static Shock, Toss Elixir H, Detonate Elixir H, Regenerating Mist, Bandage Self (Core F1): cooldowns
-- Smoke Bomb, Grenade Barrage, Healing Mist, Smoke Vent, Throw Wrench, Toss Elixir B, Detonate Elixir B, Toss Elixir C, Detonate Elixir C, Toss Elixir R, Detonate Elixir R, Toss Elixir S, Detonate Elixir S, Toss Elixir U, Detonate Elixir U, Launch Personal Battering Ram, Rocket Kick, Superspeed, Mine Field, Detonate Mine Field, Flashbang, Throw Napalm, Net Attack, Surprise Shot, Harpoon, Rocket, Rumble (Core F2, F3, F4): cooldowns
-- Orbital Strike, Toss Elixir X, Detonate Elixir X, Med Pack Drop (Core F5): cooldowns
-- Reconstruction Field (Scrapper F1): cooldown
-- Bypass Coating, Defense Field, Chemical Field, Spare Capacitor (Scrapper F2, F3, F4): cooldowns
+- Toolbelt Skills (Core F1, F2, F3, F4, F5): cooldowns
 - Function Gyro (Scrapper F5): cooldown
-- Cauterize (Holosmith F1): cooldown
-- Flash Spark, Prismatic Singularity, Laser Disk, Photon Wall (Holosmit F2, F3, F4): cooldowns
 - Photon Forge (Holosmith F5): active effect, cooldown
 - Heat (Holomist Resource): visible above Health bar; tremble if near overheating (>90, >145 if Enhanced Capacity Storage Unit traited); tick at 50, tick at 100 if Enhanced Capacity Storage Unit traited
-- Rolling Smash, Explosive Knuckle, Spark Revolver (Mechanist F1): cooldowns
-- Discharge Array, Crisis Zone, Core Reactor Shot (Mechanist F2): cooldowns
-- Jade Mortar, Barrier Burst, Sky Circus (Mechanist F3): cooldowns
-- Crash Down, Recall Mech, Mech Support: Depth Charges (Mechanist F4): cooldowns
-- Symbiotic Shielding (Amalgam F1): cooldown
-- Defensive Protocol: Protect, Defensive Protocol: Cleanse, Defensive Protocol: Thorns, Offensive Protocol: Pierce, Offensive Protocol: Obliterate, Offensive Protocol: Shred, Offensive Protocol: Demolish (Amalgam F2, F3, F4): effect duration, cooldowns
+- Mech Commands (Mechanist F1, F2, F3, F4): cooldowns
+- Strains (Amalgam F1, F2, F3, F4): effect duration, cooldowns
 - Evolve (Amalgam F5): effect duration, cooldown
 ## Traits
 - Explosives => Explosive Temper: effect stacks and duration
@@ -188,7 +178,7 @@ A list of (planned) features.
 - Dagger: Double Arc (Dagger 2) effect duration, only if Soulbeast and in Beastmode
 - Greatsword: Counterattack (Greatsword 4) effect duration
 - Mace: Nature's Strength effect stacks and duration, Force of Nature effect duration, Tapped Out effect duration
-- Spear: Hunter's Prowess (Spear 5) effect duration
+- Spear: Hunter's Prowess (Spear 5) effect duration, Counterstrike (Underwater Spear 4) effect duration
 - Troll Unguent (Core Heal): effect duration
 - "Guard!" (Core Utility): effect duration
 - "Sic' Em!" (Core Utility): effect duration, only if Soulbeast and in Beastmode
@@ -227,15 +217,60 @@ A list of (planned) features.
 - Untamed => Ferocious Symbiosis: effect stacks and duration
 - Galeshot => Bird of Prey: glowing border around Swiftness and Superspeed
 	
-	Thief
-		Skills
-			Profession: Steal / Deadeye's Mark / Siphon|Shadow Shroud / Stolen Skill (charges with Improvisation)
-			Weapon: Kneel buff
-		Trait
-			Lead Attacks / Lotus Training|Unhindered Combatant|Bounding Dodger / Consume Shadows
-		Initiative (Preparedness)
-		Malice (Maleficent Seven)
-		Shadow Force
+# Thief
+## Skills
+- Pistol: Repeater (Pistol+Dagger 3) effect stacks and duration
+- Rifle: Kneel (Rifle 5) active effect
+- Scepter: Endless Night (Scepter+Pistol 3) effect duration
+- Spear: Shadow Veil (Spear 5) effect stacks and duration, Nine-Tailed Strike (Underwater Spear 3) effect duration
+- Sword: Infiltrator's Return (Sword 2) effect duration, Larcenous Strike (Sword+Dagger 3) effect duration
+- Skelk Venom, Devourer Venom, Ice Drake Venom, Skale Venom, Spider Venom, Basilisk Venom (Core Heal, Utilities, and Elite): effect stacks and duration
+- Shadowstep (Core Utility): effect duration
+- Bandit's Defense (Daredevil Utility): effect duration
+- Fist Flurry (Daredevil Utility): effect duration
+- Impact Strike, Uppercut, Finishing Blow (Daredevil Elite): effect duration
+- Shadow Flare (Deadeye Utility): effect duration
+- Antivenom Draught, Stone Summit Cannon, Inquest Portal Device, Emergency Jade Shield, Canach-Coin Toss, Skritt Scuffle (Antiquary Heal, Utilities, and Elite): backfired effect duration
+## Profession Mechanic
+- Initiative (Core Resource): icons visible above Health bar; modified by Preparedness
+- Steal (Core and Daredevil F1): cooldown
+- Deadeye's Mark (Deadeye F1): cooldown
+- Malice (Deadeye Resource): icons visible above Initiative icons; modified by Maleficent Seven
+- Stolen Skill (Core, Daredevil, Deadeye, and Antiquary F2): available skill, cooldown
+- Siphon (Spectre F1): cooldown
+- Enter Shadow Shroud (Spectre F2): resource availability, cooldown
+- Shadow Force (Spectre Resource): bar visible above Health bar, below Initiative icons
+- Skritt Swipe (Antiquary F1): cooldown
+## Traits
+- Deadly Arts => Revealed Training: glowing border around Revealed
+- Critical Strikes => No Quarter: glowing border around Fury
+- Critical Strikes => Hidden Killer: glowing border around Stealth
+- Critical Strikes => Invigorating Precision: glowing border around Fury
+- Acrobatics => Don't Stop: glowing border around Swiftness
+- Daredevil => Lotus Training: effect duration
+- Daredevil => Unhindered Combatant: effect duration
+- Exhausted: effect duration
+- Daredevil => Bounding Dodger: effect duration
+- Deadeye => Be Quick or Be Killed: glowing border around Quickness
+- Specter => Consume Shadows: effect stacks and duration
+- Antiquary => Scoundrel's Luck: effect duration
+- Antiquary => Exhilerating Ephemera: effect duration
+- Antiquary => Combat High: effect duration
+
+# Elementalist
+## Skills
+## Profession Mechanic
+## Traits
+
+# Mesmer
+## Skills
+## Profession Mechanic
+## Traits
+
+# Necromancer
+## Skills
+## Profession Mechanic
+## Traits
 	
 	Elementalist
 		Skills
