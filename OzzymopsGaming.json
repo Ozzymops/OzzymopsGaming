@@ -1787,7 +1787,7 @@
           "type": "Group",
           "members": [
             {
-              "enabled": true,
+              "enabled": false,
               "name": "Common",
               "anchor": "Parent",
               "pos": [
@@ -3324,7 +3324,7 @@
               ]
             },
             {
-              "enabled": true,
+              "enabled": false,
               "name": "Boons",
               "anchor": "Parent",
               "pos": [
@@ -6746,7 +6746,7 @@
               ]
             },
             {
-              "enabled": true,
+              "enabled": false,
               "name": "Conditions",
               "anchor": "Parent",
               "pos": [
@@ -10918,7 +10918,7 @@
               "anchor": "Parent",
               "pos": [
                 0.0,
-                0.0
+                104.0
               ],
               "opacity": 1.0,
               "trigger": {
@@ -10944,7 +10944,738 @@
               },
               "animation": null,
               "type": "Group",
-              "members": []
+              "members": [
+                {
+                  "enabled": true,
+                  "name": "Superspeed",
+                  "anchor": "Parent",
+                  "pos": [
+                    17.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": "Inherit",
+                    "threshold": {
+                      "threshold_type": "Always",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Group",
+                  "members": [
+                    {
+                      "enabled": true,
+                      "name": "Superspeed",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            5974
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "OzzymopsGaming\\Effects\\Superspeed.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [
+                        {
+                          "trigger": {
+                            "ProgressThreshold": {
+                              "threshold_type": {
+                                "Below": 5.0
+                              },
+                              "amount_type": "Duration"
+                            }
+                          },
+                          "properties": {
+                            "tint": [
+                              1.0,
+                              1.0,
+                              1.0,
+                              0.0
+                            ],
+                            "zoom": null,
+                            "round": null,
+                            "border_size": null,
+                            "border_color": null
+                          }
+                        }
+                      ],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Superspeed Running Out",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            5974
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": {
+                        "kind": "Pulse",
+                        "period": 800
+                      },
+                      "type": "Icon",
+                      "icon": {
+                        "File": "OzzymopsGaming\\Effects\\Superspeed.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [
+                        {
+                          "trigger": {
+                            "ProgressThreshold": {
+                              "threshold_type": {
+                                "Above": 5.0
+                              },
+                              "amount_type": "Duration"
+                            }
+                          },
+                          "properties": {
+                            "tint": [
+                              1.0,
+                              1.0,
+                              1.0,
+                              0.0
+                            ],
+                            "zoom": null,
+                            "round": null,
+                            "border_size": null,
+                            "border_color": null
+                          }
+                        }
+                      ],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Superspeed Missing",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 0.33,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            5974
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Missing",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "OzzymopsGaming\\Effects\\Superspeed.png"
+                      },
+                      "tint": [
+                        0.39215687,
+                        0.39215687,
+                        0.39215687,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Stealth & Revealed",
+                  "anchor": "Parent",
+                  "pos": [
+                    -17.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": "Inherit",
+                    "threshold": {
+                      "threshold_type": "Always",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Group",
+                  "members": [
+                    {
+                      "enabled": true,
+                      "name": "Stealth",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            13017,
+                            26142,
+                            32747,
+                            58026
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "OzzymopsGaming\\Effects\\Stealth.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [
+                        {
+                          "trigger": {
+                            "ProgressThreshold": {
+                              "threshold_type": {
+                                "Below": 5.0
+                              },
+                              "amount_type": "Duration"
+                            }
+                          },
+                          "properties": {
+                            "tint": [
+                              1.0,
+                              1.0,
+                              1.0,
+                              0.0
+                            ],
+                            "zoom": null,
+                            "round": null,
+                            "border_size": null,
+                            "border_color": null
+                          }
+                        }
+                      ],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Stealth Running Out",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            13017,
+                            26142,
+                            32747,
+                            58026
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": {
+                        "kind": "Pulse",
+                        "period": 800
+                      },
+                      "type": "Icon",
+                      "icon": {
+                        "File": "OzzymopsGaming\\Effects\\Stealth.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [
+                        {
+                          "trigger": {
+                            "ProgressThreshold": {
+                              "threshold_type": {
+                                "Above": 5.0
+                              },
+                              "amount_type": "Duration"
+                            }
+                          },
+                          "properties": {
+                            "tint": [
+                              1.0,
+                              1.0,
+                              1.0,
+                              0.0
+                            ],
+                            "zoom": null,
+                            "round": null,
+                            "border_size": null,
+                            "border_color": null
+                          }
+                        }
+                      ],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Stealth Missing",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 0.33,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            13017,
+                            26142,
+                            32747,
+                            58026
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Missing",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "OzzymopsGaming\\Effects\\Stealth.png"
+                      },
+                      "tint": [
+                        0.39215687,
+                        0.39215687,
+                        0.39215687,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Revealed",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            890
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "OzzymopsGaming\\Effects\\Revealed.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [
+                        {
+                          "trigger": {
+                            "ProgressThreshold": {
+                              "threshold_type": {
+                                "Below": 5.0
+                              },
+                              "amount_type": "Duration"
+                            }
+                          },
+                          "properties": {
+                            "tint": [
+                              1.0,
+                              1.0,
+                              1.0,
+                              0.0
+                            ],
+                            "zoom": null,
+                            "round": null,
+                            "border_size": null,
+                            "border_color": null
+                          }
+                        }
+                      ],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Revealed Running Out",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            890
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": {
+                        "kind": "Pulse",
+                        "period": 800
+                      },
+                      "type": "Icon",
+                      "icon": {
+                        "File": "OzzymopsGaming\\Effects\\Revealed.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [
+                        {
+                          "trigger": {
+                            "ProgressThreshold": {
+                              "threshold_type": {
+                                "Above": 5.0
+                              },
+                              "amount_type": "Duration"
+                            }
+                          },
+                          "properties": {
+                            "tint": [
+                              1.0,
+                              1.0,
+                              1.0,
+                              0.0
+                            ],
+                            "zoom": null,
+                            "round": null,
+                            "border_size": null,
+                            "border_color": null
+                          }
+                        }
+                      ],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    }
+                  ]
+                }
+              ]
             },
             {
               "enabled": true,
@@ -10952,7 +11683,7 @@
               "anchor": "Parent",
               "pos": [
                 0.0,
-                0.0
+                37.0
               ],
               "opacity": 1.0,
               "trigger": {
@@ -10978,7 +11709,1151 @@
               },
               "animation": null,
               "type": "Group",
-              "members": []
+              "members": [
+                {
+                  "enabled": true,
+                  "name": "Aegis",
+                  "anchor": "Parent",
+                  "pos": [
+                    -47.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": "Inherit",
+                    "threshold": {
+                      "threshold_type": "Always",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Group",
+                  "members": [
+                    {
+                      "enabled": true,
+                      "name": "Aegis",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            743
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "OzzymopsGaming\\Effects\\Boons\\Aegis.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [
+                        {
+                          "trigger": {
+                            "ProgressThreshold": {
+                              "threshold_type": {
+                                "Below": 5.0
+                              },
+                              "amount_type": "Duration"
+                            }
+                          },
+                          "properties": {
+                            "tint": [
+                              1.0,
+                              1.0,
+                              1.0,
+                              0.0
+                            ],
+                            "zoom": null,
+                            "round": null,
+                            "border_size": null,
+                            "border_color": null
+                          }
+                        }
+                      ],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Aegis Running Out",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            743
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": {
+                        "kind": "Pulse",
+                        "period": 800
+                      },
+                      "type": "Icon",
+                      "icon": {
+                        "File": "OzzymopsGaming\\Effects\\Boons\\Aegis.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [
+                        {
+                          "trigger": {
+                            "ProgressThreshold": {
+                              "threshold_type": {
+                                "Above": 5.0
+                              },
+                              "amount_type": "Duration"
+                            }
+                          },
+                          "properties": {
+                            "tint": [
+                              1.0,
+                              1.0,
+                              1.0,
+                              0.0
+                            ],
+                            "zoom": null,
+                            "round": null,
+                            "border_size": null,
+                            "border_color": null
+                          }
+                        }
+                      ],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Aegis Missing",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 0.33,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            743
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Missing",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "OzzymopsGaming\\Effects\\Boons\\Aegis.png"
+                      },
+                      "tint": [
+                        0.39215687,
+                        0.39215687,
+                        0.39215687,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Stability",
+                  "anchor": "Parent",
+                  "pos": [
+                    -15.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": "Inherit",
+                    "threshold": {
+                      "threshold_type": "Always",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Group",
+                  "members": [
+                    {
+                      "enabled": true,
+                      "name": "Stability",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            1122
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "OzzymopsGaming\\Effects\\Boons\\Stability.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [
+                        {
+                          "trigger": {
+                            "ProgressThreshold": {
+                              "threshold_type": {
+                                "Below": 5.0
+                              },
+                              "amount_type": "Duration"
+                            }
+                          },
+                          "properties": {
+                            "tint": [
+                              1.0,
+                              1.0,
+                              1.0,
+                              0.0
+                            ],
+                            "zoom": null,
+                            "round": null,
+                            "border_size": null,
+                            "border_color": null
+                          }
+                        }
+                      ],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Stability Running Out",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            1122
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": {
+                        "kind": "Pulse",
+                        "period": 800
+                      },
+                      "type": "Icon",
+                      "icon": {
+                        "File": "OzzymopsGaming\\Effects\\Boons\\Stability.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [
+                        {
+                          "trigger": {
+                            "ProgressThreshold": {
+                              "threshold_type": {
+                                "Above": 5.0
+                              },
+                              "amount_type": "Duration"
+                            }
+                          },
+                          "properties": {
+                            "tint": [
+                              1.0,
+                              1.0,
+                              1.0,
+                              0.0
+                            ],
+                            "zoom": null,
+                            "round": null,
+                            "border_size": null,
+                            "border_color": null
+                          }
+                        }
+                      ],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Stability Missing",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 0.33,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            1122
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Missing",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "OzzymopsGaming\\Effects\\Boons\\Stability.png"
+                      },
+                      "tint": [
+                        0.39215687,
+                        0.39215687,
+                        0.39215687,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Stability Stacks",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            1122
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": {
+                            "Above": 2.0
+                          },
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Text",
+                      "text": "%i",
+                      "font": "MENOMONIA_BIG_XL",
+                      "align": "Center",
+                      "scale": 1.0,
+                      "color": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "decoration": "Shadow",
+                      "conditions": []
+                    }
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Quickness",
+                  "anchor": "Parent",
+                  "pos": [
+                    15.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": "Inherit",
+                    "threshold": {
+                      "threshold_type": "Always",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Group",
+                  "members": [
+                    {
+                      "enabled": true,
+                      "name": "Quickness",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            1187
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "OzzymopsGaming\\Effects\\Boons\\Quickness.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [
+                        {
+                          "trigger": {
+                            "ProgressThreshold": {
+                              "threshold_type": {
+                                "Below": 5.0
+                              },
+                              "amount_type": "Duration"
+                            }
+                          },
+                          "properties": {
+                            "tint": [
+                              1.0,
+                              1.0,
+                              1.0,
+                              0.0
+                            ],
+                            "zoom": null,
+                            "round": null,
+                            "border_size": null,
+                            "border_color": null
+                          }
+                        }
+                      ],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Quickness Running Out",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            1187
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": {
+                        "kind": "Pulse",
+                        "period": 800
+                      },
+                      "type": "Icon",
+                      "icon": {
+                        "File": "OzzymopsGaming\\Effects\\Boons\\Quickness.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [
+                        {
+                          "trigger": {
+                            "ProgressThreshold": {
+                              "threshold_type": {
+                                "Above": 5.0
+                              },
+                              "amount_type": "Duration"
+                            }
+                          },
+                          "properties": {
+                            "tint": [
+                              1.0,
+                              1.0,
+                              1.0,
+                              0.0
+                            ],
+                            "zoom": null,
+                            "round": null,
+                            "border_size": null,
+                            "border_color": null
+                          }
+                        }
+                      ],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Quickness Missing",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 0.33,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            1187
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Missing",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "OzzymopsGaming\\Effects\\Boons\\Quickness.png"
+                      },
+                      "tint": [
+                        0.39215687,
+                        0.39215687,
+                        0.39215687,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Alacrity",
+                  "anchor": "Parent",
+                  "pos": [
+                    47.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": "Inherit",
+                    "threshold": {
+                      "threshold_type": "Always",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Group",
+                  "members": [
+                    {
+                      "enabled": true,
+                      "name": "Alacrity",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            30328
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "OzzymopsGaming\\Effects\\Boons\\Alacrity.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [
+                        {
+                          "trigger": {
+                            "ProgressThreshold": {
+                              "threshold_type": {
+                                "Below": 5.0
+                              },
+                              "amount_type": "Duration"
+                            }
+                          },
+                          "properties": {
+                            "tint": [
+                              1.0,
+                              1.0,
+                              1.0,
+                              0.0
+                            ],
+                            "zoom": null,
+                            "round": null,
+                            "border_size": null,
+                            "border_color": null
+                          }
+                        }
+                      ],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Alacrity Running Out",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            30328
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": {
+                        "kind": "Pulse",
+                        "period": 800
+                      },
+                      "type": "Icon",
+                      "icon": {
+                        "File": "OzzymopsGaming\\Effects\\Boons\\Alacrity.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [
+                        {
+                          "trigger": {
+                            "ProgressThreshold": {
+                              "threshold_type": {
+                                "Above": 5.0
+                              },
+                              "amount_type": "Duration"
+                            }
+                          },
+                          "properties": {
+                            "tint": [
+                              1.0,
+                              1.0,
+                              1.0,
+                              0.0
+                            ],
+                            "zoom": null,
+                            "round": null,
+                            "border_size": null,
+                            "border_color": null
+                          }
+                        }
+                      ],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Alacrity Missing",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 0.33,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            30328
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Missing",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "OzzymopsGaming\\Effects\\Boons\\Alacrity.png"
+                      },
+                      "tint": [
+                        0.39215687,
+                        0.39215687,
+                        0.39215687,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    }
+                  ]
+                }
+              ]
             },
             {
               "enabled": true,
@@ -10986,7 +12861,7 @@
               "anchor": "Parent",
               "pos": [
                 0.0,
-                0.0
+                71.0
               ],
               "opacity": 1.0,
               "trigger": {
@@ -11012,7 +12887,1151 @@
               },
               "animation": null,
               "type": "Group",
-              "members": []
+              "members": [
+                {
+                  "enabled": true,
+                  "name": "Blinded",
+                  "anchor": "Parent",
+                  "pos": [
+                    -47.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": "Inherit",
+                    "threshold": {
+                      "threshold_type": "Always",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Group",
+                  "members": [
+                    {
+                      "enabled": true,
+                      "name": "Blinded",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            720
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "OzzymopsGaming\\Effects\\Conditions\\Blinded.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [
+                        {
+                          "trigger": {
+                            "ProgressThreshold": {
+                              "threshold_type": {
+                                "Below": 5.0
+                              },
+                              "amount_type": "Duration"
+                            }
+                          },
+                          "properties": {
+                            "tint": [
+                              1.0,
+                              1.0,
+                              1.0,
+                              0.0
+                            ],
+                            "zoom": null,
+                            "round": null,
+                            "border_size": null,
+                            "border_color": null
+                          }
+                        }
+                      ],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Blinded Running Out",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            720
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": {
+                        "kind": "Pulse",
+                        "period": 800
+                      },
+                      "type": "Icon",
+                      "icon": {
+                        "File": "OzzymopsGaming\\Effects\\Conditions\\Blinded.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [
+                        {
+                          "trigger": {
+                            "ProgressThreshold": {
+                              "threshold_type": {
+                                "Above": 5.0
+                              },
+                              "amount_type": "Duration"
+                            }
+                          },
+                          "properties": {
+                            "tint": [
+                              1.0,
+                              1.0,
+                              1.0,
+                              0.0
+                            ],
+                            "zoom": null,
+                            "round": null,
+                            "border_size": null,
+                            "border_color": null
+                          }
+                        }
+                      ],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Blinded Missing",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 0.33,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            720
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Missing",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "OzzymopsGaming\\Effects\\Conditions\\Blinded.png"
+                      },
+                      "tint": [
+                        0.39215687,
+                        0.39215687,
+                        0.39215687,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Vulnerability",
+                  "anchor": "Parent",
+                  "pos": [
+                    -15.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": "Inherit",
+                    "threshold": {
+                      "threshold_type": "Always",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Group",
+                  "members": [
+                    {
+                      "enabled": true,
+                      "name": "Vulnerability",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            738
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "OzzymopsGaming\\Effects\\Conditions\\Vulnerability.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [
+                        {
+                          "trigger": {
+                            "ProgressThreshold": {
+                              "threshold_type": {
+                                "Below": 5.0
+                              },
+                              "amount_type": "Duration"
+                            }
+                          },
+                          "properties": {
+                            "tint": [
+                              1.0,
+                              1.0,
+                              1.0,
+                              0.0
+                            ],
+                            "zoom": null,
+                            "round": null,
+                            "border_size": null,
+                            "border_color": null
+                          }
+                        }
+                      ],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Vulnerability Running Out",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            738
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": {
+                        "kind": "Pulse",
+                        "period": 800
+                      },
+                      "type": "Icon",
+                      "icon": {
+                        "File": "OzzymopsGaming\\Effects\\Conditions\\Vulnerability.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [
+                        {
+                          "trigger": {
+                            "ProgressThreshold": {
+                              "threshold_type": {
+                                "Above": 5.0
+                              },
+                              "amount_type": "Duration"
+                            }
+                          },
+                          "properties": {
+                            "tint": [
+                              1.0,
+                              1.0,
+                              1.0,
+                              0.0
+                            ],
+                            "zoom": null,
+                            "round": null,
+                            "border_size": null,
+                            "border_color": null
+                          }
+                        }
+                      ],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Vulnerability Missing",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 0.33,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            738
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Missing",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "OzzymopsGaming\\Effects\\Conditions\\Vulnerability.png"
+                      },
+                      "tint": [
+                        0.39215687,
+                        0.39215687,
+                        0.39215687,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Vulnerability Stacks",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            738
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": {
+                            "Above": 2.0
+                          },
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Text",
+                      "text": "%i",
+                      "font": "MENOMONIA_BIG_XL",
+                      "align": "Center",
+                      "scale": 1.0,
+                      "color": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "decoration": "Shadow",
+                      "conditions": []
+                    }
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Chilled",
+                  "anchor": "Parent",
+                  "pos": [
+                    15.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": "Inherit",
+                    "threshold": {
+                      "threshold_type": "Always",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Group",
+                  "members": [
+                    {
+                      "enabled": true,
+                      "name": "Chilled",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            722
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "OzzymopsGaming\\Effects\\Conditions\\Chilled.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [
+                        {
+                          "trigger": {
+                            "ProgressThreshold": {
+                              "threshold_type": {
+                                "Below": 5.0
+                              },
+                              "amount_type": "Duration"
+                            }
+                          },
+                          "properties": {
+                            "tint": [
+                              1.0,
+                              1.0,
+                              1.0,
+                              0.0
+                            ],
+                            "zoom": null,
+                            "round": null,
+                            "border_size": null,
+                            "border_color": null
+                          }
+                        }
+                      ],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Chilled Running Out",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            722
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": {
+                        "kind": "Pulse",
+                        "period": 800
+                      },
+                      "type": "Icon",
+                      "icon": {
+                        "File": "OzzymopsGaming\\Effects\\Conditions\\Chilled.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [
+                        {
+                          "trigger": {
+                            "ProgressThreshold": {
+                              "threshold_type": {
+                                "Above": 5.0
+                              },
+                              "amount_type": "Duration"
+                            }
+                          },
+                          "properties": {
+                            "tint": [
+                              1.0,
+                              1.0,
+                              1.0,
+                              0.0
+                            ],
+                            "zoom": null,
+                            "round": null,
+                            "border_size": null,
+                            "border_color": null
+                          }
+                        }
+                      ],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Chilled Missing",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 0.33,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            722
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Missing",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "OzzymopsGaming\\Effects\\Conditions\\Chilled.png"
+                      },
+                      "tint": [
+                        0.39215687,
+                        0.39215687,
+                        0.39215687,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Slow",
+                  "anchor": "Parent",
+                  "pos": [
+                    47.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": "Inherit",
+                    "threshold": {
+                      "threshold_type": "Always",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Group",
+                  "members": [
+                    {
+                      "enabled": true,
+                      "name": "Slow",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            26766
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "OzzymopsGaming\\Effects\\Conditions\\Slow.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [
+                        {
+                          "trigger": {
+                            "ProgressThreshold": {
+                              "threshold_type": {
+                                "Below": 5.0
+                              },
+                              "amount_type": "Duration"
+                            }
+                          },
+                          "properties": {
+                            "tint": [
+                              1.0,
+                              1.0,
+                              1.0,
+                              0.0
+                            ],
+                            "zoom": null,
+                            "round": null,
+                            "border_size": null,
+                            "border_color": null
+                          }
+                        }
+                      ],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Slow Running Out",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            26766
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": {
+                        "kind": "Pulse",
+                        "period": 800
+                      },
+                      "type": "Icon",
+                      "icon": {
+                        "File": "OzzymopsGaming\\Effects\\Conditions\\Slow.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [
+                        {
+                          "trigger": {
+                            "ProgressThreshold": {
+                              "threshold_type": {
+                                "Above": 5.0
+                              },
+                              "amount_type": "Duration"
+                            }
+                          },
+                          "properties": {
+                            "tint": [
+                              1.0,
+                              1.0,
+                              1.0,
+                              0.0
+                            ],
+                            "zoom": null,
+                            "round": null,
+                            "border_size": null,
+                            "border_color": null
+                          }
+                        }
+                      ],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Slow Missing",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 0.33,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            26766
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Missing",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "OzzymopsGaming\\Effects\\Conditions\\Slow.png"
+                      },
+                      "tint": [
+                        0.39215687,
+                        0.39215687,
+                        0.39215687,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
