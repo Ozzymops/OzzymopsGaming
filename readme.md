@@ -1,11 +1,10 @@
-A list of (planned) features.
-
-# Shared
+# Current features:
+## Shared
 - All 'duration' elements blink if less than 5 seconds are left
 - All 'intensity' elements tremble if at maximum intensity
 - All 'cooldown' elements have an overlay, darkening the icon, combined with a timer
 
-# General
+## General
 - Health bar (tremble if below 25%)
 - Barrier bar
 - Health and barrier number (notated as ##.#k)
@@ -16,7 +15,7 @@ A list of (planned) features.
 - Specific common effects such as Daze, Stun, Unblockable, Stealth, Superspeed, Revealed, etc.
 - Small profession icon in the health bar for flavor :)
 
-# Mounts
+## Mounts
 - Mount endurance (with 'dynamic' ticks for specific mounts: none for Springer, Skimmer, Griffon, Roller Beetle, and Siege Turtle; one for Raptor and Skyscale; two for Jackal and Warclaw)
 - Living World Season 4 Bond cooldowns
 - Icebrood Saga Stealth cooldown
@@ -24,8 +23,8 @@ A list of (planned) features.
 - Secrets of the Obscure Skyscale Fireball ammo and cooldown, and Ley-Line Riding status
 - Janthir Wilds Warclaw skill ammo and cooldowns
 
-# Guardian
-## Skills
+## Guardian
+### Skills
 - Focus: Shield of Wrath (Focus 4) effect stacks and duration
 - Greatsword: Binding Blade (Greatsword 5) effect stacks and duration
 - Shield: Shield of Absorption (Shield 5) effect duration
@@ -36,12 +35,7 @@ A list of (planned) features.
 - Flash Combo (Willbender Utility): Repose effect duration
 - Radiant Shroud (Luminary F4): Radiant Shroud effect duration
 - Resolute Stance, Stalwart Stance, Valorous Stance, Effulgent Stance, Piercing Stance, Daring Advance (Luminary Heal, Utilities, Elite): effect duration
-## Profession Mechanic
-- Virtue of Justice, Virtue of Resolve, Virtue of Courage (Core F1, F2, F3): cooldowns
-- Spear of Justice, Hunter's Verdict, Wings of Resolve, Shield of Courage (Dragonhunter F1, F2, F3): cooldowns
-- Firebrand's Pages (Firebrand Resource): icons visible above Health bar; modified by Archivist of Whispers
-- Enter Radiant Shroud (Luminary F4): cooldown
-## Traits
+### Traits
 - Zeal => Furious Focus: glowing border around Fury
 - Zeal => Symbolic Avenger: effect stacks and duration
 - Radiance => Retribution: glowing border around Resolution
@@ -54,8 +48,16 @@ A list of (planned) features.
 - Luminary => Steadfast Recovery: glowing border around Protection and Resolution
 - Luminary => Empowered Armaments: active effect
 
-# Revenant
-## Skills
+# Planned features:
+## Guardian
+### Profession Mechanic
+- Virtue of Justice, Virtue of Resolve, Virtue of Courage (Core F1, F2, F3): cooldowns
+- Spear of Justice, Hunter's Verdict, Wings of Resolve, Shield of Courage (Dragonhunter F1, F2, F3): cooldowns
+- Firebrand's Pages (Firebrand Resource): icons visible above Health bar; modified by Archivist of Whispers
+- Enter Radiant Shroud (Luminary F4): cooldown
+
+## Revenant
+### Skills
 - Greatsword: Imperial Guard (Greatsword 4) effect duration
 - Scepter: Blossoming Aura (Scepter 2) effect duration
 - Shield: Crystal Hibernation (Shield 5) effect duration
@@ -71,7 +73,7 @@ A list of (planned) features.
 - Soulcleave's Summit (Renegade, Legendary Renegade Elite): active effect
 - Urn of Saint Viktor (Vindicator, Legendary Alliance Saint Viktor Elite): active effect
 - Shielding Hands (Conduit, Legendary Entity Heal): effect duration
-## Profession Mechanic
+### Profession Mechanic
 - Energy (Core Resource): bar visible above Health bar; tick at 50%, with 'dynamic' ticks for specific traits: Charged Mists 10%
 - Energy percentage: visible above Energy bar
 - Upkeep indicator: visible inside Energy bar; if possible, indicated by multiple arrows, with icon above upkeep threshold for Herald trait Elevated Compassion
@@ -82,7 +84,7 @@ A list of (planned) features.
 - Energy Meld, Alliance Tactics (Vindicator F2, F3): cooldowns
 - Cosmic Wisdom (Conduit F2): cooldowns
 - Affinity (Conduit resource)
-## Traits
+### Traits
 - Corruption => Demonic Resistance, Fiendish Tenacity: glowing border around Resistance
 - Retribution => Determined Resolution, Vicious Reprisal: glowing border around Resolution
 - Salvation => Invoking Harmony: effect duration
@@ -95,8 +97,8 @@ A list of (planned) features.
 - Vindicator => Forerunner of Death: effect duration
 - Vindicator => Saint of zu Heltzer: effect duration
 
-# Warrior
-## Skills
+## Warrior
+### Skills
 - Mace: Counterblow (Mace 2) effect duration
 - Pistol: Dragon's Roar (Pistol 5) ammo count
 - Shield: Shield Stance (Shield 5) effect duration
@@ -113,7 +115,7 @@ A list of (planned) features.
 - Overcharged Cartridges (Bladesworn Utility): Overcharged/Supercharged Cartridges effect stacks and duration
 - Tactical Reload (Bladesworn Utility): effect duration
 - "We Will Never Yield!" (Paragon Elite): effect duration
-## Profession Mechanics
+### Profession Mechanics
 - Adrenaline (Core Resource): bar visible above Health bar; ticks at 33% and 66%, single tick at 50% if Spellbreaker; tremble if full)
 - Burst (Core F1): available Burst, resource availability, and cooldown
 - Berserk (Berserker F2): cooldown (tremble if Adrenaline is full)
@@ -126,7 +128,7 @@ A list of (planned) features.
 - Charge (Bladesworn Resource): visible above Adrenaline bar while in Dragon Trigger
 - Chant of Action, Chant of Recuperation, Chant of Freedom (Paragon F2, F3, F4): Refrain active effect?
 - Motivation (Paragon Resource): visible above Adrenaline bar
-## Traits
+### Traits
 - Strength => Peak Performance: effect duration
 - Strength => Pinnacle of Strength, Might Makes Right: glowing border around Might
 - Strength => Aggressive Onslaught: glowing border around Quickness
@@ -139,8 +141,8 @@ A list of (planned) features.
 - Berserker => Burst of Aggression: effect duration
 - Spellbreaker => Attacker's Insight: effect duration
 
-# Engineer
-## Skills
+## Engineer
+### Skills
 - Shield: Magnetic Shield (Shield 4) effect duration, Static Shield (Shield 5) effect duration
 - Spear: Lightning Rod Charges (Spear 3) effect stacks and duration
 - A.E.D. (Core Heal): effect duration
@@ -148,7 +150,7 @@ A list of (planned) features.
 - Coolant Blast (Holosmith Heal): Cooling Vapor effect duration
 - Spectrum Shield (Holosmith Utility): Spectrum Shield effect duration
 - Mitotic State, Solid State, Gaseous State, Plasmatic State (Amalgam Heal and Utilities): effect duration
-## Profession Mechanics
+### Profession Mechanics
 - Toolbelt Skills (Core F1, F2, F3, F4, F5): cooldowns
 - Function Gyro (Scrapper F5): cooldown
 - Photon Forge (Holosmith F5): active effect, cooldown
@@ -156,7 +158,7 @@ A list of (planned) features.
 - Mech Commands (Mechanist F1, F2, F3, F4): cooldowns
 - Strains (Amalgam F1, F2, F3, F4): effect duration, cooldowns
 - Evolve (Amalgam F5): effect duration, cooldown
-## Traits
+### Traits
 - Explosives => Explosive Temper: effect stacks and duration
 - Firearms => Hematic Focus: glowing border around Fury
 - Firearms => Juggernaut: glowing border around Might
@@ -171,8 +173,8 @@ A list of (planned) features.
 - Mechanist => Exigency Protocols: glowing border around Regeneration
 - Amalgam => Willing Host: effect duration
 
-# Ranger
-## Skills
+## Ranger
+### Skills
 - Dagger: Double Arc (Dagger 2) effect duration, only if Soulbeast and in Beastmode
 - Greatsword: Counterattack (Greatsword 4) effect duration
 - Mace: Nature's Strength effect stacks and duration, Force of Nature effect duration, Tapped Out effect duration
@@ -187,7 +189,7 @@ A list of (planned) features.
 - Bear Stance, Dolyak Stance, Griffon Stance, Moa Stance, Vulture Stance, One Wolf Pack (Soulbeast Heal, Utilities, and Elite): effect duration
 - Perilous Gift (Untamed Heal): effect duration
 - Forest's Fortification (Untamed Elite): effect duration
-## Profession Mechanics
+### Profession Mechanics
 - Pet Skills (Core F2): available skill, cooldowns
 - Celestial Avatar, Release Celestial Avatar (Druid F5): cooldown
 - Astral Force (Druid Resouce): bar visible above Health bar
@@ -199,7 +201,7 @@ A list of (planned) features.
 - Summon Cyclone Bow, Dismiss Cyclone Bow (Galeshot F5): cooldown
 - Arrows (Galeshot Resource): visible above Health bar
 - Wind Force (Galeshot Resource): effect stacks and duration
-## Traits
+### Traits
 - Marksmanship => Stoneform: effect duration
 - Skirmishing => Quick Draw: effect duration
 - Skirmishing => Light on your Feet: effect duration
@@ -215,8 +217,8 @@ A list of (planned) features.
 - Untamed => Ferocious Symbiosis: effect stacks and duration
 - Galeshot => Bird of Prey: glowing border around Swiftness and Superspeed
 	
-# Thief
-## Skills
+## Thief
+### Skills
 - Pistol: Repeater (Pistol+Dagger 3) effect stacks and duration
 - Rifle: Kneel (Rifle 5) active effect
 - Scepter: Endless Night (Scepter+Pistol 3) effect duration
@@ -229,7 +231,7 @@ A list of (planned) features.
 - Impact Strike, Uppercut, Finishing Blow (Daredevil Elite): effect duration
 - Shadow Flare (Deadeye Utility): effect duration
 - Antivenom Draught, Stone Summit Cannon, Inquest Portal Device, Emergency Jade Shield, Canach-Coin Toss, Skritt Scuffle (Antiquary Heal, Utilities, and Elite): backfired effect duration
-## Profession Mechanic
+### Profession Mechanic
 - Initiative (Core Resource): icons visible above Health bar; modified by Preparedness
 - Steal (Core and Daredevil F1): cooldown
 - Deadeye's Mark (Deadeye F1): cooldown
@@ -239,7 +241,7 @@ A list of (planned) features.
 - Enter Shadow Shroud (Spectre F2): resource availability, cooldown
 - Shadow Force (Spectre Resource): bar visible above Health bar, below Initiative icons
 - Skritt Swipe (Antiquary F1): cooldown
-## Traits
+### Traits
 - Deadly Arts => Revealed Training: glowing border around Revealed
 - Critical Strikes => No Quarter: glowing border around Fury
 - Critical Strikes => Hidden Killer: glowing border around Stealth
@@ -255,29 +257,73 @@ A list of (planned) features.
 - Antiquary => Exhilerating Ephemera: effect duration
 - Antiquary => Combat High: effect duration
 
-# Elementalist
-## Skills
-## Profession Mechanic
-## Traits
+## Elementalist
+### Skills
+- Dagger: Frost Aura (Ice+Dagger 4) effect duration, Shocking Aura (Air+Dagger 3) effect duration
+- Focus: Fire Shield (Fire+Focus 5) effect duration, Swirling Winds (Air+Focus 4) effect duration, Obsidian Flesh (Earth+Focus 5) effect duration
+- Hammer: Flame Wheel, Icy Coil, Crescent Wind, Rocky Loop, Grand Finale (All+Hammer 3) effect duration, icons visible above Attunements; Immutable Stone (Earth+Hammer 4) effect duration
+- Pistol: Fire Bullet, Ice Bullet, Air Bullet, Earth Bullet, Elemental Explosion (All+Pistol 1) effect duration, icons visible above Attunements; Aerial Agility (Air+Pistol 3) effect duration
+- Scepter: Rock Barrier (Earth+Scepter 2): effect duration
+- Spear: Volcano, Jökulhlaup, Derecho, Haboob (All+Spear 5) icon when Etching is full; Seethe, Ripple, Energize, Harden (All+Spear 3) effect duration
+- Trident: Air Pocket (Air+Trident 3) effect duration
+- Arcane Echo (Core Utility): effect duration
+- Arcane Shield (Core Utility): effect stacks and duration
+- Mist Form (Core Utility): effect duration
+- Conjure Earth Shield (Core Utility): effect duration; Tectonic Shift effect duration; Fortify (Earth Shield 5) effect duration
+- Conjure Flame Axe (Core Utility): effect duration; Double Lava Axe effect duration
+- Conjure Frost Bow (Core Utility): effect duration; Water Arrow effect stacks and duration
+- Conjure Lightning Hammer (Core Utility): effect duration
+- Renewal of Fire (Core Utility): effect duration
+- Glyph of Lesser Elementals (Core Utility): effect duration
+- Conjure Fiery Greatsword (Core Elite): effect duration
+- Glyph of Elementals (Core Elite): effect duration
+- Tornado, Whirlpool (Core Elite): effect duration
+- "Rebound!" (Tempest Elite): effect duration
+- Aquatic Stance, Primordial Stance, Stone Resonance, Unravel (Weaver Heal and Utilitie): effect duration
+- Weave Self, Tailored Victory (Weaver Elite) effect duration, icons visible above Attunements
+- Soothing Water, Relentless Fire, Shattering Ice, Invigorating Air, Fortified Earth, Elemental Celerity (Catalyst Heal, Utilities, and Elite): effect duration
+- Toad's Fortitude (Evoker Utility): effect duration
+### Profession Mechanic
+- Attunement (Core F1, F2, F3, F4): icons visible above Health bar, cooldown, glowing border around selected Attunement
+- Overload (Tempest F1, F2, F3, F4): icons visible instead of Attunement when available, cooldown, glowing border around selected Attunement
+- Dual Attunement (Weaver F1, F2, F3, F4): glowing borders around selected Attunements (if possible)
+- Deploy Jade Sphere (Catalyst F5): cooldown, glowing border around selected Attunement
+- Elemental Energy (Catalyst Resource): bar visible above Attunements
+- Ignite, Conflagration, Splash, Buoyant Deluge, Zap, Lightning Blitz, Calcify, Seismic Impact (Evoker F5): cooldown, glowing border around selected Attunement
+### Traits
+- Fire => Power Overwhelming: glowing border around Might at threshold
+- Fire => Persisting Flames: effect duration
+- Air => Raging Storm: glowing border around Fury
+- Air => Fresh Air: effect duration
+- Earth => Stone Heart: effect duration
+- Water => Soothing Mist: effect duration
+- Water => Soothing Power: glowing border around Soothing Mist
+- Arcane => Arcane Lightning: effect duration
+- Tempest => Hardy Conduit: glowing border around Protection
+- Tempest => Transcendent Tempest: effect duration
+- Weaver => Weaver's Prowess: effect duration
+- Weaver => Swift Revenge: glowing border around Swiftness and Superspeed
+- Weaver => Elements of Rage: effect duration
+- Weaver => Woven Stride: glowing border around Swiftness and Superspeed
+- Catalyst => Hardened Auras: effect duration
+- Catalyst => Vicious Empowerment, Elemental Empowerment, Evasive Empowerment, Elemental Epitome: effect stacks and duration
+- Catalyst => Empowering Auras: effect stacks and duration
+- Catalyst => Empowered Empowerment: glowing border around Elemental Empowerment
+- Evoker => Electric Enchantment: effect stacks and duration
+- Evoker => Earthen Fortification: glowing border around Protection if Toad is equipped
+- Evoker => Enhanced Potency: glowing border around Might if Fox is equipped, Regeneration if Otter is equipped, Fury if Hare is equipped, Protection if Toad is equipped
+- Evoker => Fiery Might: glowing border around Might if Fox is equipped
+- Evoker => Familiar's Prowess, Familiar's Focus: effect duration
 
-# Mesmer
-## Skills
-## Profession Mechanic
-## Traits
+## Mesmer
+### Skills
+### Profession Mechanic
+### Traits
 
-# Necromancer
-## Skills
-## Profession Mechanic
-## Traits
-	
-	Elementalist
-		Skills
-			Profession: Attunements (weaver dual attunement?) / Overloads / Jade Sphere
-			Utility: Conjure duration / Tornado
-			Elite: Rebound / Weave Self => Perfect Weave
-			Weapon: Flame Wheel|Icy Coil|Crescent Wind|Rocky Loop / Etching => Lesser X|X / Fire|Water|Air|Earth Bullet
-		Traits
-			Fresh Air / Soothing Mist / Empowering Auras / Elemental Empowerment
+## Necromancer
+### Skills
+### Profession Mechanic
+### Traits
 	
 	Mesmer
 		Skills
