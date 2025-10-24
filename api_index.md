@@ -342,13 +342,13 @@ Luminary's Blessing: 77333
 Furious Focus: 628
 Symbolic Avenger: 56890
 Retribution: 565
-Righteous Instincts: [&B5MGAAA=]
-Unscathed Contender: [&B3ACAAA=]
+Righteous Instincts: 1683
+Unscathed Contender: 624
 Inspiring Virtue: 59592
 Swift Scholar: 68601
-Imbued Haste: [&B2QIAAA=]
+Imbued Haste: 2148
 Lethal Tempo: 62509
-Steadfast Recovery: [&B2oJAAA=]
+Steadfast Recovery: 2410
 Empowered Armaments: 77169
 
 ## Revenant
