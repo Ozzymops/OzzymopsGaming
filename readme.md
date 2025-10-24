@@ -32,8 +32,6 @@ A list of (planned) features.
 - Spear: Illuminated (Spear 2, 3, 4, 5) effect duration
 - Torch: Zealot's Flame (Torch 4) effect duration
 - Shield of Courage (Dragonhunter F3): Shield of Courage effect duration
-- Epilogue: Eternal Oasis (Firebrand F2-5): Eternal Oasis effect duration
-- Epilogue: Unbroken Lines (Firebrand F3-5): Unbroken Lines effect duration
 - Reversal of Fortune (Willbender Heal): Reversal of Fortune effect duration
 - Flash Combo (Willbender Utility): Repose effect duration
 - Radiant Shroud (Luminary F4): Radiant Shroud effect duration

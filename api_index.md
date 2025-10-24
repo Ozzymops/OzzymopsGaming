@@ -239,15 +239,10 @@
 
 # Skills
 ## Guardian
-Virtue of Justice:
-Virtue of Resolve:
-Virtue of Courage:
-Spear of Justice:
-Hunter's Verdict:
-Wings of Resolve:
-Shield of Courage:
-Enter Radiant Shroud:
-Exit Radiant Shroud:
+Spear of Justice: 29887
+Hunter's Verdict: 33134
+Enter Radiant Shroud: 77073
+Exit Radiant Shroud: 76616
 
 ## Revenant
 
@@ -329,34 +324,32 @@ Sniff: 73836
 Uncover: 74037
 
 ## Guardian
-Shield of Wrath:
-Binding Blade:
-Shield of Absorption:
-Illuminated:
-Zealot's Flame:
-Shield of Courage:
-Eternal Oasis:
-Unbroken Lines:
-Reversal of Fortune:
-Repose:
-Radiant Shroud:
-Resolute Stance:
-Stalwart Stance:
-Valorous Stance:
-Effulgent Stance:
-Piercing Stance:
-Daring Advance:
-Furious Focus:
-Symbolic Avenger:
-Retribution:
-Righteous Instincts:
-Unscathed Contender:
-Inspiring Virtue:
-Swift Scholar:
-Imbued Haste:
-Lethal Tempo:
-Steadfast Recovery:
-Empowered Armaments:
+Shield of Wrath: 9123
+Binding Blade: 9225
+Shield of Absorption Skill: 9224
+Illuminated: 73101
+Zealot's Flame: 9103
+Shield of Courage: 29906
+Reversal of Fortune: 62663
+Repose Skill: 62669
+Radiant Shroud: 77142
+Resolute Stance: 76751
+Stalwart Stance: 76868
+Valorous Stance: 76736
+Effulgent Stance: 77095
+Piercing Stance: 77143
+Luminary's Blessing: 77333
+Furious Focus: [&B3QCAAA=]
+Symbolic Avenger: 56890
+Retribution: [&BzUCAAA=]
+Righteous Instincts: [&B5MGAAA=]
+Unscathed Contender: [&B3ACAAA=]
+Inspiring Virtue: 59592
+Swift Scholar: 68601
+Imbued Haste: [&B2QIAAA=]
+Lethal Tempo: 62509
+Steadfast Recovery: [&B2oJAAA=]
+Empowered Armaments: 77169
 
 ## Revenant
 
