@@ -339,9 +339,9 @@ Valorous Stance: 76736
 Effulgent Stance: 77095
 Piercing Stance: 77143
 Luminary's Blessing: 77333
-Furious Focus: [&B3QCAAA=]
+Furious Focus: 628
 Symbolic Avenger: 56890
-Retribution: [&BzUCAAA=]
+Retribution: 565
 Righteous Instincts: [&B5MGAAA=]
 Unscathed Contender: [&B3ACAAA=]
 Inspiring Virtue: 59592
