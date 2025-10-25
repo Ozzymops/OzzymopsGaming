@@ -245,6 +245,13 @@ Enter Radiant Shroud: 77073
 Exit Radiant Shroud: 76616
 
 ## Revenant
+Ancient Echo: 55029
+True Nature: 51667, 51713, 51714, 51675, 51696
+Heroic Command: 44076
+Citadel Bombardment: 42836
+Orders from Above: 45537
+Energy Meld: 62757, 72058
+Alliance Tactics: 62729
 
 ## Warrior
 
