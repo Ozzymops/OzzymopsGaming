@@ -260,7 +260,7 @@ Exit Radiant Shroud: 76616
 
 ## Necromancer
 
-# Effects
+# Effects and Traits
 ## Boons
 Aegis: 743
 Alacrity: 30328
@@ -330,6 +330,9 @@ Shield of Absorption Skill: 9224
 Illuminated: 73101
 Zealot's Flame: 9103
 Shield of Courage: 29906
+Dormant Justice: 68607
+Dormant Resolve: 68640
+Dormant Courage: 68585
 Reversal of Fortune: 62663
 Repose Skill: 62669
 Radiant Shroud: 77142
@@ -345,6 +348,7 @@ Retribution: 565
 Righteous Instincts: 1683
 Unscathed Contender: 624
 Inspiring Virtue: 59592
+Archivist of Whispers: 2086
 Swift Scholar: 68601
 Imbued Haste: 2148
 Lethal Tempo: 62509
