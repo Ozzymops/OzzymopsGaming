@@ -53,7 +53,9 @@
 ### Profession Mechanic
 - Virtue of Justice, Virtue of Resolve, Virtue of Courage (Core F1, F2, F3): cooldowns
 - Spear of Justice, Hunter's Verdict, Wings of Resolve, Shield of Courage (Dragonhunter F1, F2, F3): cooldowns
+- Tome of Justice, Tome of Resolve, Tome of Courage (Firebrand F1, F2, F3): dormant effect duration
 - Firebrand's Pages (Firebrand Resource): icons visible above Health bar; modified by Archivist of Whispers
+- Rushing Justice, Flowing Resolve, (Willbender F1, F2, F3) effect duration, ammo, cooldowns
 - Enter Radiant Shroud (Luminary F4): cooldown
 
 ## Revenant

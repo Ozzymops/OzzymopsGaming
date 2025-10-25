@@ -333,6 +333,9 @@ Shield of Courage: 29906
 Dormant Justice: 68607
 Dormant Resolve: 68640
 Dormant Courage: 68585
+Rushing Justice: 62529
+Flowing Resolve: 62632
+Crashing Courage: 62615
 Reversal of Fortune: 62663
 Repose Skill: 62669
 Radiant Shroud: 77142

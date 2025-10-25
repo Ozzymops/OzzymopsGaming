@@ -24227,8 +24227,8 @@
                   "duration_text": false,
                   "stacks_text": false,
                   "size": [
-                    32.0,
-                    32.0
+                    28.0,
+                    28.0
                   ]
                 },
                 {
@@ -24272,6 +24272,531 @@
                   "type": "Icon",
                   "icon": {
                     "File": "OzzymopsGaming\\Effects\\Guardian\\ShieldofCourage.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Above": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    28.0,
+                    28.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Rushing Justice",
+                  "anchor": "Parent",
+                  "pos": [
+                    55.0,
+                    -98.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        62529
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Skills\\Guardian\\RushingJustice.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Below": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    28.0,
+                    28.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Rushing Justice Running Out",
+                  "anchor": "Parent",
+                  "pos": [
+                    55.0,
+                    -98.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        62529
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": {
+                    "kind": "Pulse",
+                    "period": 800
+                  },
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Skills\\Guardian\\RushingJustice.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Above": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    28.0,
+                    28.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Flowing Resolve",
+                  "anchor": "Parent",
+                  "pos": [
+                    89.0,
+                    -98.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        62632
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Skills\\Guardian\\FlowingResolve.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Below": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    28.0,
+                    28.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Flowing Resolve Running Out",
+                  "anchor": "Parent",
+                  "pos": [
+                    89.0,
+                    -98.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        62632
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": {
+                    "kind": "Pulse",
+                    "period": 800
+                  },
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Skills\\Guardian\\FlowingResolve.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Above": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    28.0,
+                    28.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Crashing Courage",
+                  "anchor": "Parent",
+                  "pos": [
+                    123.0,
+                    -98.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        62615
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Skills\\Guardian\\CrashingCourage.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Below": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    28.0,
+                    28.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Crashing Courage Running Out",
+                  "anchor": "Parent",
+                  "pos": [
+                    123.0,
+                    -98.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        62615
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": {
+                    "kind": "Pulse",
+                    "period": 800
+                  },
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Skills\\Guardian\\CrashingCourage.png"
                   },
                   "tint": [
                     1.0,
@@ -28206,7 +28731,7 @@
                   ]
                 },
                 {
-                  "enabled": true,
+                  "enabled": false,
                   "name": "Firebrand",
                   "anchor": "Parent",
                   "pos": [
@@ -30735,6 +31260,599 @@
                         32.0,
                         32.0
                       ]
+                    }
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Willbender",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": "Inherit",
+                    "threshold": {
+                      "threshold_type": "Always",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [
+                        "Willbender"
+                      ],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Group",
+                  "members": [
+                    {
+                      "enabled": true,
+                      "name": "Rushing Justice",
+                      "anchor": "Parent",
+                      "pos": [
+                        -34.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "SkillbarSlot": "Profession1"
+                        },
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "OzzymopsGaming\\Skills\\Guardian\\RushingJustice.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Rushing Justice Unavailable",
+                      "anchor": "Parent",
+                      "pos": [
+                        -34.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "SkillbarSlot": "Profession1"
+                        },
+                        "threshold": {
+                          "threshold_type": "Missing",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "OzzymopsGaming\\Skills\\Guardian\\RushingJustice.png"
+                      },
+                      "tint": [
+                        0.39215687,
+                        0.39215687,
+                        0.39215687,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Rushing Justice Cooldown",
+                      "anchor": "Parent",
+                      "pos": [
+                        -34.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "SkillbarSlot": "Profession1"
+                        },
+                        "threshold": {
+                          "threshold_type": "Missing",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Text",
+                      "text": "%c",
+                      "font": "MENOMONIA_BIG_XL",
+                      "align": "Center",
+                      "scale": 0.9,
+                      "color": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "decoration": "None",
+                      "conditions": []
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Flowing Resolve",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "SkillbarSlot": "Profession2"
+                        },
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "OzzymopsGaming\\Skills\\Guardian\\FlowingResolve.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Flowing Resolve Unavailable",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "SkillbarSlot": "Profession2"
+                        },
+                        "threshold": {
+                          "threshold_type": "Missing",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "OzzymopsGaming\\Skills\\Guardian\\FlowingResolve.png"
+                      },
+                      "tint": [
+                        0.39215687,
+                        0.39215687,
+                        0.39215687,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Flowing Resolve Cooldown",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "SkillbarSlot": "Profession2"
+                        },
+                        "threshold": {
+                          "threshold_type": "Missing",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Text",
+                      "text": "%c",
+                      "font": "MENOMONIA_BIG_XL",
+                      "align": "Center",
+                      "scale": 0.9,
+                      "color": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "decoration": "None",
+                      "conditions": []
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Flowing Resolve Ammo",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "SkillbarSlot": "Profession2"
+                        },
+                        "threshold": {
+                          "threshold_type": {
+                            "Above": 2.0
+                          },
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Text",
+                      "text": "%i",
+                      "font": "MENOMONIA_BIG_XL",
+                      "align": "Center",
+                      "scale": 0.9,
+                      "color": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "decoration": "Shadow",
+                      "conditions": []
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Crashing Courage",
+                      "anchor": "Parent",
+                      "pos": [
+                        34.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "SkillbarSlot": "Profession3"
+                        },
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "OzzymopsGaming\\Skills\\Guardian\\CrashingCourage.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Crashing Courage Unavailable",
+                      "anchor": "Parent",
+                      "pos": [
+                        34.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "SkillbarSlot": "Profession3"
+                        },
+                        "threshold": {
+                          "threshold_type": "Missing",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "OzzymopsGaming\\Skills\\Guardian\\CrashingCourage.png"
+                      },
+                      "tint": [
+                        0.39215687,
+                        0.39215687,
+                        0.39215687,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Crashing Courage Cooldown",
+                      "anchor": "Parent",
+                      "pos": [
+                        34.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "SkillbarSlot": "Profession3"
+                        },
+                        "threshold": {
+                          "threshold_type": "Missing",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Text",
+                      "text": "%c",
+                      "font": "MENOMONIA_BIG_XL",
+                      "align": "Center",
+                      "scale": 0.9,
+                      "color": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "decoration": "None",
+                      "conditions": []
                     }
                   ]
                 }
