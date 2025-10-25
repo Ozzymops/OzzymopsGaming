@@ -359,6 +359,15 @@ Steadfast Recovery: 2410
 Empowered Armaments: 77169
 
 ## Revenant
+Legendary Assassin Stance: 27890
+Legendary Centaur Stance: 27972
+Legendary Demon Stance: 27928
+Legendary Dwarf Stance: 27205
+Legendary Dragon Stance: 27732
+Legendary Renegade Stance: 44272
+Legendary Alliance Stance: 62919
+Legendary Entity Stance: 77234
+Charged Mists: 1791
 
 ## Warrior
 

@@ -27468,7 +27468,7 @@
               "type": "Group",
               "members": [
                 {
-                  "enabled": false,
+                  "enabled": true,
                   "name": "Core",
                   "anchor": "Parent",
                   "pos": [
@@ -28012,7 +28012,7 @@
                   ]
                 },
                 {
-                  "enabled": false,
+                  "enabled": true,
                   "name": "Dragonhunter",
                   "anchor": "Parent",
                   "pos": [
@@ -28731,7 +28731,7 @@
                   ]
                 },
                 {
-                  "enabled": false,
+                  "enabled": true,
                   "name": "Firebrand",
                   "anchor": "Parent",
                   "pos": [
@@ -31898,7 +31898,1730 @@
           },
           "animation": null,
           "type": "Group",
-          "members": []
+          "members": [
+            {
+              "enabled": true,
+              "name": "Skills",
+              "anchor": "Parent",
+              "pos": [
+                -89.0,
+                41.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": "Inherit",
+                "threshold": {
+                  "threshold_type": "Always",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Group",
+              "members": []
+            },
+            {
+              "enabled": true,
+              "name": "Effects",
+              "anchor": "Parent",
+              "pos": [
+                89.0,
+                41.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": "Inherit",
+                "threshold": {
+                  "threshold_type": "Always",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Group",
+              "members": []
+            },
+            {
+              "enabled": true,
+              "name": "Profession Mechanic",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                -26.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": "Inherit",
+                "threshold": {
+                  "threshold_type": "Always",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Group",
+              "members": [
+                {
+                  "enabled": true,
+                  "name": "Energy",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": "Inherit",
+                    "threshold": {
+                      "threshold_type": "Always",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Group",
+                  "members": [
+                    {
+                      "enabled": true,
+                      "name": "Energy Bar",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        15.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": "PrimaryResource",
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [
+                            {
+                              "id": 1791,
+                              "present": false
+                            }
+                          ],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Bar",
+                      "progress_kind": "Duration",
+                      "max": 25.0,
+                      "lower_bound": 0.0,
+                      "upper_bound": 1.0,
+                      "fill": [
+                        1.0,
+                        0.32768363,
+                        0.32768363,
+                        1.0
+                      ],
+                      "background": [
+                        0.3882353,
+                        0.0,
+                        0.0,
+                        0.39215687
+                      ],
+                      "border_size": 1.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "tick_size": 1.0,
+                      "tick_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "size": [
+                        128.0,
+                        8.0
+                      ],
+                      "align": "Center",
+                      "direction": "Right",
+                      "tick_unit": "Percent",
+                      "ticks": [
+                        0.5
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Energy Bar Charged Mists",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        15.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": "PrimaryResource",
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [
+                            {
+                              "id": 1791,
+                              "present": true
+                            }
+                          ],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Bar",
+                      "progress_kind": "Duration",
+                      "max": 25.0,
+                      "lower_bound": 0.0,
+                      "upper_bound": 1.0,
+                      "fill": [
+                        1.0,
+                        0.32768363,
+                        0.32768363,
+                        1.0
+                      ],
+                      "background": [
+                        0.3882353,
+                        0.0,
+                        0.0,
+                        0.39215687
+                      ],
+                      "border_size": 1.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "tick_size": 1.0,
+                      "tick_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "size": [
+                        128.0,
+                        8.0
+                      ],
+                      "align": "Center",
+                      "direction": "Right",
+                      "tick_unit": "Percent",
+                      "ticks": [
+                        0.5,
+                        0.1
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Energy Percentage",
+                      "anchor": "Parent",
+                      "pos": [
+                        32.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": "PrimaryResource",
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Text",
+                      "text": "%c%%",
+                      "font": "MENOMONIA_BIG_XL",
+                      "align": "Right",
+                      "scale": 0.8,
+                      "color": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "decoration": "Shadow",
+                      "conditions": []
+                    }
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Legend",
+                  "anchor": "Parent",
+                  "pos": [
+                    90.0,
+                    28.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": "Inherit",
+                    "threshold": {
+                      "threshold_type": "Always",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Group",
+                  "members": [
+                    {
+                      "enabled": true,
+                      "name": "Legendary Assassin Stance",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            27890
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "OzzymopsGaming\\Skills\\Revenant\\LegendaryAssassinStance.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        48.0,
+                        48.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Legendary Centaur Stance",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            27972
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "OzzymopsGaming\\Skills\\Revenant\\LegendaryCentaurStance.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        48.0,
+                        48.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Legendary Demon Stance",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            27928
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "OzzymopsGaming\\Skills\\Revenant\\LegendaryDemonStance.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        48.0,
+                        48.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Legendary Dwarf Stance",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            27205
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "OzzymopsGaming\\Skills\\Revenant\\LegendaryDwarfStance.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        48.0,
+                        48.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Legendary Dragon Stance",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            27732
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "OzzymopsGaming\\Skills\\Revenant\\LegendaryDragonStance.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        48.0,
+                        48.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Legendary Renegade Stance",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            44272
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "OzzymopsGaming\\Skills\\Revenant\\LegendaryRenegadeStance.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        48.0,
+                        48.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Legendary Alliance Stance",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            62919
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "OzzymopsGaming\\Skills\\Revenant\\LegendaryAllianceStance.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        48.0,
+                        48.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Legendary Entity Stance",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            77234
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "OzzymopsGaming\\Skills\\Revenant\\LegendaryEntityStance.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        48.0,
+                        48.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Legend Swap Cooldown Overlay",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 0.4,
+                      "trigger": {
+                        "source": {
+                          "SkillbarSlot": "Profession1"
+                        },
+                        "threshold": {
+                          "threshold_type": "Missing",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "OzzymopsGaming\\Pixel.png"
+                      },
+                      "tint": [
+                        0.000001,
+                        9.9999e-7,
+                        9.9999e-7,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        48.0,
+                        48.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Legend Swap Cooldown",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "SkillbarSlot": "Profession1"
+                        },
+                        "threshold": {
+                          "threshold_type": "Missing",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Text",
+                      "text": "%c",
+                      "font": "MENOMONIA_BIG_XL",
+                      "align": "Center",
+                      "scale": 1.2,
+                      "color": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "decoration": "None",
+                      "conditions": []
+                    }
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Core",
+                  "anchor": "Parent",
+                  "pos": [
+                    48.0,
+                    -6.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": "Inherit",
+                    "threshold": {
+                      "threshold_type": "Always",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [
+                        "Revenant"
+                      ],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Group",
+                  "members": [
+                    {
+                      "enabled": true,
+                      "name": "Ancient Echo",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "SkillbarSlot": "Profession2"
+                        },
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "OzzymopsGaming\\Skills\\Revenant\\AncientEcho.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Ancient Echo Unavailable",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "SkillbarSlot": "Profession2"
+                        },
+                        "threshold": {
+                          "threshold_type": "Missing",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "OzzymopsGaming\\Skills\\Revenant\\AncientEcho.png"
+                      },
+                      "tint": [
+                        0.39215687,
+                        0.39215687,
+                        0.39215687,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Ancient Echo Cooldown",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "SkillbarSlot": "Profession2"
+                        },
+                        "threshold": {
+                          "threshold_type": "Missing",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Text",
+                      "text": "%c",
+                      "font": "MENOMONIA_BIG_XL",
+                      "align": "Center",
+                      "scale": 0.8,
+                      "color": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "decoration": "None",
+                      "conditions": []
+                    }
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Herald",
+                  "anchor": "Parent",
+                  "pos": [
+                    48.0,
+                    -6.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": "Inherit",
+                    "threshold": {
+                      "threshold_type": "Always",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [
+                        "Herald"
+                      ],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Group",
+                  "members": [
+                    {
+                      "enabled": true,
+                      "name": "Facet of Nature Assassin",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            27890
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "OzzymopsGaming\\Skills\\Revenant\\FacetofNature_Assassin.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Facet of Nature Centaur",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            27972
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "OzzymopsGaming\\Skills\\Revenant\\FacetofNature_Centaur.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Facet of Nature Demon",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            27928
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "OzzymopsGaming\\Skills\\Revenant\\FacetofNature_Demon.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Facet of Nature Dwarf",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            27205
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "OzzymopsGaming\\Skills\\Revenant\\FacetofNature_Dwarf.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Facet of Nature Dragon",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            27732
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "OzzymopsGaming\\Skills\\Revenant\\FacetofNature_Dragon.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "True Nature",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Ability": [
+                            51667,
+                            51713,
+                            51714,
+                            51675,
+                            51696
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "OzzymopsGaming\\Skills\\Revenant\\TrueNature.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "True Nature Cooldown Overlay",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 0.4,
+                      "trigger": {
+                        "source": {
+                          "SkillbarSlot": "Profession2"
+                        },
+                        "threshold": {
+                          "threshold_type": "Missing",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "OzzymopsGaming\\Pixel.png"
+                      },
+                      "tint": [
+                        0.000001,
+                        9.9999e-7,
+                        9.9999e-7,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "True Nature Cooldown",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "SkillbarSlot": "Profession2"
+                        },
+                        "threshold": {
+                          "threshold_type": "Missing",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Text",
+                      "text": "%c",
+                      "font": "MENOMONIA_BIG_XL",
+                      "align": "Center",
+                      "scale": 0.8,
+                      "color": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "decoration": "None",
+                      "conditions": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "enabled": true,
