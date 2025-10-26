@@ -254,6 +254,39 @@ Energy Meld: 62757, 72058
 Alliance Tactics: 62729
 
 ## Warrior
+Eviscerate: 14353, 14422, 14423, 14424
+Breaching Strike: 45252
+Skull Crack: 14414, 14425, 14426, 14427
+Flurry: 14367, 14428, 14429, 14430
+Arcing Slice: 14375, 14545, 14546, 14547
+Earthshaker: 14387, 14512, 14513, 14514
+Combustive Shot: 14506, 14520, 14521, 14522
+Kill Shot: 14396, 14473, 14474, 14475
+Path to Victory: 71922, 71932, 71950, 72029, 72089
+Harrier's Toss: 72911, 73006, 73014, 73024, 73042
+Whirling Strike: 14443, 14549, 14550, 14551
+Forceful Shot: 14544, 14469, 14470, 14471
+Berserk: 30435, 30185
+Eternal Champion: 29521
+Decapitate: 30851
+Slicing Maelstrom: 69290
+Skull Grinder: 29679
+Flaming Flurry: 30682
+Arc Divider: 29852
+Rupturing Smash: 30879
+Scorched Earth: 29923
+Gun Flame: 29644
+Rampart Splitter: 71875
+Wild Throw: 73103
+Wild Whirl: 31048
+Burning Shackles: 30989
+Full Counter: 44165, 41243
+Unsheathe Gunsaber: 62745
+Sheathe Gunsaber: 62861
+Dragon Trigger: 62803
+Chant of Action: 77342
+Chant of Recuperation: 76782
+Chant of Freedom: 77155
 
 ## Engineer
 
@@ -400,18 +433,18 @@ Legendary Renegade Stance: 44272
 Legendary Alliance Stance: 62919
 Legendary Entity Stance: 77234
 Charged Mists: 1791
-Demonic Resistance: [&B74GAAA=]
-Fiendish Tenacity: [&B7gGAAA=]
-Determined Resolution: [&B7EGAAA=]
-Vicious Reprisal: [&B/MGAAA=]
+Demonic Resistance: 1726
+Fiendish Tenacity: 1720
+Determined Resolution: 1713
+Vicious Reprisal: 1779
 Invoking Harmony: 29025
 Unyielding Devotion: 55044
-Ferocious Aggression: [&B94GAAA=]
-Roiling Mists: [&B7cGAAA=]
+Ferocious Aggression: 1758
+Roiling Mists: 1719
 Battle Scars: 26646
-Elder's Respite: [&BxUHAAA=]
+Elder's Respite: 1813
 Kalla's Fervor: 42883
-Blood Fury: [&Bx8IAAA=]
+Blood Fury: 2079
 Forerunner of Death: 62811
 Saint of zu Heltzer: 62994
 
