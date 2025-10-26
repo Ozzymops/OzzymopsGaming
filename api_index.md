@@ -375,14 +375,19 @@ Enchanted Daggers: 28557
 Impossible Odds: 27581
 Protective Solace Skill: 27628
 Embrace the Darkness: 28001
-Vengeful Hammers: 26557, 56752
+Vengeful Hammers: 27273
 Facet of Light: 27336
+Facet of Light Echo: 51690
 Infuse Light: 27737
 Facet of Darkness: 28036
+Facet of Darkness Echo: 51695
 Facet of Strength: 27376, 33740
+Facet of Strength Echo: 51700
 Burst of Strength: 51653
 Facet of Elements: 28243
+Facet of Elements Echo: 51706
 Facet of Chaos: 27983
+Facet of Chaos Echo: 51685
 Soulcleave's Summit: 45026
 Urn of Saint Viktor: 62864
 Shielding Hands: 77322
@@ -395,6 +400,20 @@ Legendary Renegade Stance: 44272
 Legendary Alliance Stance: 62919
 Legendary Entity Stance: 77234
 Charged Mists: 1791
+Demonic Resistance: [&B74GAAA=]
+Fiendish Tenacity: [&B7gGAAA=]
+Determined Resolution: [&B7EGAAA=]
+Vicious Reprisal: [&B/MGAAA=]
+Invoking Harmony: 29025
+Unyielding Devotion: 55044
+Ferocious Aggression: [&B94GAAA=]
+Roiling Mists: [&B7cGAAA=]
+Battle Scars: 26646
+Elder's Respite: [&BxUHAAA=]
+Kalla's Fervor: 42883
+Blood Fury: [&Bx8IAAA=]
+Forerunner of Death: 62811
+Saint of zu Heltzer: 62994
 
 ## Warrior
 
