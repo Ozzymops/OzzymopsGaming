@@ -366,6 +366,26 @@ Steadfast Recovery: 2410
 Empowered Armaments: 77169
 
 ## Revenant
+Imperial Guard: 62706
+True Strike: 62819
+Blossoming Aura: 71887
+Crystal Hibernation: 29303
+Crushing Abyss: 72962
+Enchanted Daggers: 28557
+Impossible Odds: 27581
+Protective Solace Skill: 27628
+Embrace the Darkness: 28001
+Vengeful Hammers: 26557, 56752
+Facet of Light: 27336
+Infuse Light: 27737
+Facet of Darkness: 28036
+Facet of Strength: 27376, 33740
+Burst of Strength: 51653
+Facet of Elements: 28243
+Facet of Chaos: 27983
+Soulcleave's Summit: 45026
+Urn of Saint Viktor: 62864
+Shielding Hands: 77322
 Legendary Assassin Stance: 27890
 Legendary Centaur Stance: 27972
 Legendary Demon Stance: 27928

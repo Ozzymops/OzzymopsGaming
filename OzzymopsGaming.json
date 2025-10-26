@@ -56,7 +56,7 @@
       },
       "filter": {
         "player": {
-          "combat": true,
+          "combat": null,
           "specs": [],
           "weapons": [],
           "traits": [],
@@ -23081,7 +23081,7 @@
       },
       "filter": {
         "player": {
-          "combat": true,
+          "combat": null,
           "specs": [],
           "weapons": [],
           "traits": [],
@@ -31931,7 +31931,3254 @@
               },
               "animation": null,
               "type": "Group",
-              "members": []
+              "members": [
+                {
+                  "enabled": true,
+                  "name": "Imperial Guard",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        62706
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Revenant\\ImperialGuard.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Below": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Imperial Guard Running Out",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        62706
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": {
+                    "kind": "Pulse",
+                    "period": 800
+                  },
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Revenant\\ImperialGuard.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Above": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "True Strike",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        62819
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Revenant\\TrueStrike.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Below": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "True Strike Running Out",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        62819
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": {
+                    "kind": "Pulse",
+                    "period": 800
+                  },
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Revenant\\TrueStrike.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Above": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Blossoming Aura",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        71887
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Revenant\\BlossomingAura.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Below": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Blossoming Aura Running Out",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        71887
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": {
+                    "kind": "Pulse",
+                    "period": 800
+                  },
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Revenant\\BlossomingAura.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Above": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Crystal Hibernation",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        29303
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Revenant\\CrystalHibernation.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Below": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Crystal Hibernation Running Out",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        29303
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": {
+                    "kind": "Pulse",
+                    "period": 800
+                  },
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Revenant\\CrystalHibernation.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Above": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Crushing Abyss",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        72962
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Revenant\\CrushingAbyss.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Below": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Crushing Abyss Running Out",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        72962
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": {
+                    "kind": "Pulse",
+                    "period": 800
+                  },
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Revenant\\CrushingAbyss.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Above": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Crushing Abyss Stacks",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        72962
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": {
+                        "Above": 2.0
+                      },
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Text",
+                  "text": "%i",
+                  "font": "MENOMONIA_BIG_XL",
+                  "align": "Center",
+                  "scale": 1.0,
+                  "color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "decoration": "Shadow",
+                  "conditions": []
+                },
+                {
+                  "enabled": true,
+                  "name": "Impossible Odds",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    34.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        27581
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Revenant\\ImpossibleOdds.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Enchanted Daggers",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    68.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        28557
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Revenant\\EnchantedDaggers.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Below": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Enchanted Daggers Running Out",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    68.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        28557
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": {
+                    "kind": "Pulse",
+                    "period": 800
+                  },
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Revenant\\EnchantedDaggers.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Above": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Enchanted Daggers Stacks",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    68.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        28557
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": {
+                        "Above": 2.0
+                      },
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Text",
+                  "text": "%i",
+                  "font": "MENOMONIA_BIG_XL",
+                  "align": "Center",
+                  "scale": 1.0,
+                  "color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "decoration": "Shadow",
+                  "conditions": []
+                },
+                {
+                  "enabled": true,
+                  "name": "Protective Solace",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    34.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Ability": [
+                        27628
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Revenant\\ProtectiveSolace.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Embrace the Darkness",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    34.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        28001
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Revenant\\EmbracetheDarkness.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Vengeful Hammers",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    34.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        27273
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Revenant\\VengefulHammers.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Facet of Light",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    34.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        27336
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Revenant\\FacetofLight.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Facet of Light Echo",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    34.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        51690
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Revenant\\FacetofLight.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Below": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Facet of Light Echo Running Out",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    34.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        51690
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": {
+                    "kind": "Pulse",
+                    "period": 800
+                  },
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Revenant\\FacetofLight.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Above": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Infuse Light",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    34.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        27737
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Revenant\\InfuseLight.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Below": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Infuse Light Running Out",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    34.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        27737
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": {
+                    "kind": "Pulse",
+                    "period": 800
+                  },
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Revenant\\InfuseLight.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Above": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Facet of Darkness",
+                  "anchor": "Parent",
+                  "pos": [
+                    -35.0,
+                    34.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        28036
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Revenant\\FacetofDarkness.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Facet of Darkness Echo",
+                  "anchor": "Parent",
+                  "pos": [
+                    -35.0,
+                    34.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        51695
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Revenant\\FacetofDarkness.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Below": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Facet of Darkness Echo Running Out",
+                  "anchor": "Parent",
+                  "pos": [
+                    -35.0,
+                    34.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        51695
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": {
+                    "kind": "Pulse",
+                    "period": 800
+                  },
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Revenant\\FacetofDarkness.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Above": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Facet of Strength",
+                  "anchor": "Parent",
+                  "pos": [
+                    -35.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        27376,
+                        33740
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Revenant\\FacetofStrength.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Facet of Strength Echo",
+                  "anchor": "Parent",
+                  "pos": [
+                    -35.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        51700
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Revenant\\FacetofStrength.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Below": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Facet of Strength Echo Running Out",
+                  "anchor": "Parent",
+                  "pos": [
+                    -35.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        51700
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": {
+                    "kind": "Pulse",
+                    "period": 800
+                  },
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Revenant\\FacetofStrength.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Above": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Burst of Strength",
+                  "anchor": "Parent",
+                  "pos": [
+                    -35.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        51653
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Revenant\\BurstofStrength.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Below": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Burst of Strength Running Out",
+                  "anchor": "Parent",
+                  "pos": [
+                    -35.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        51653
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": {
+                    "kind": "Pulse",
+                    "period": 800
+                  },
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Revenant\\BurstofStrength.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Above": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Facet of Elements",
+                  "anchor": "Parent",
+                  "pos": [
+                    -35.0,
+                    68.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        28243
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Revenant\\FacetofElements.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Facet of Elements Echo",
+                  "anchor": "Parent",
+                  "pos": [
+                    -35.0,
+                    68.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        51706
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Revenant\\FacetofElements.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Below": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Facet of Elements Echo Running Out",
+                  "anchor": "Parent",
+                  "pos": [
+                    -35.0,
+                    68.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        51706
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": {
+                    "kind": "Pulse",
+                    "period": 800
+                  },
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Revenant\\FacetofElements.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Above": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Facet of Chaos",
+                  "anchor": "Parent",
+                  "pos": [
+                    -70.0,
+                    34.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        27983
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Revenant\\FacetofChaos.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Facet of Chaos Echo",
+                  "anchor": "Parent",
+                  "pos": [
+                    -70.0,
+                    34.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        51685
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Revenant\\FacetofChaos.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Below": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Facet of Chaos Echo Running Out",
+                  "anchor": "Parent",
+                  "pos": [
+                    -70.0,
+                    34.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        51685
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": {
+                    "kind": "Pulse",
+                    "period": 800
+                  },
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Revenant\\FacetofChaos.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Above": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Soulcleave's Summit",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    34.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        45026
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Revenant\\SoulcleavesSummit.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Urn of Saint Viktor",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    34.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        62864
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Revenant\\UrnofSaintViktor.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Shielding Hands",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    34.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        77322
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Revenant\\ShieldingHands.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Below": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Shielding Hands Running Out",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    34.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        77322
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": {
+                    "kind": "Pulse",
+                    "period": 800
+                  },
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Revenant\\ShieldingHands.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Above": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                }
+              ]
             },
             {
               "enabled": true,
@@ -32070,8 +35317,8 @@
                       },
                       "animation": null,
                       "type": "Bar",
-                      "progress_kind": "Duration",
-                      "max": 25.0,
+                      "progress_kind": "Intensity",
+                      "max": 100.0,
                       "lower_bound": 0.0,
                       "upper_bound": 1.0,
                       "fill": [
@@ -32149,8 +35396,8 @@
                       },
                       "animation": null,
                       "type": "Bar",
-                      "progress_kind": "Duration",
-                      "max": 25.0,
+                      "progress_kind": "Intensity",
+                      "max": 100.0,
                       "lower_bound": 0.0,
                       "upper_bound": 1.0,
                       "fill": [
@@ -33022,7 +36269,7 @@
                   ]
                 },
                 {
-                  "enabled": false,
+                  "enabled": true,
                   "name": "Core",
                   "anchor": "Parent",
                   "pos": [
@@ -33228,7 +36475,7 @@
                   ]
                 },
                 {
-                  "enabled": false,
+                  "enabled": true,
                   "name": "Herald",
                   "anchor": "Parent",
                   "pos": [
@@ -33755,7 +37002,7 @@
                   ]
                 },
                 {
-                  "enabled": false,
+                  "enabled": true,
                   "name": "Renegade",
                   "anchor": "Parent",
                   "pos": [

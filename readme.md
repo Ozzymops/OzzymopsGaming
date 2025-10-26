@@ -54,6 +54,17 @@
 - Firebrand's Pages (Firebrand Resource): icons visible above Health bar; modified by Archivist of Whispers
 - Rushing Justice, Flowing Resolve, (Willbender F1, F2, F3) effect duration, ammo, cooldowns
 
+## Revenant
+### Profession Mechanic
+- Energy (Core Resource): bar visible above Health bar; tick at 50%, with 'dynamic' ticks for specific traits: Charged Mists 10%
+- Energy percentage: visible above Energy bar
+- Upkeep indicator: visible inside Energy bar; if possible, indicated by multiple arrows, with icon above upkeep threshold for Herald trait Elevated Compassion
+- Legend (Core F1): cooldown
+- Ancient Echo (Core F2): cooldown
+- Facet of Nature (Herald F2): active effect, cooldown
+- Heroic Command, Citadel Bombardment, Orders from Above (Renegade F1, F2, F3): cooldowns
+- Energy Meld, Alliance Tactics (Vindicator F2, F3): cooldowns
+
 # Planned features:
 ## Guardian
 ### Profession Mechanic
@@ -77,14 +88,6 @@
 - Urn of Saint Viktor (Vindicator, Legendary Alliance Saint Viktor Elite): active effect
 - Shielding Hands (Conduit, Legendary Entity Heal): effect duration
 ### Profession Mechanic
-- Energy (Core Resource): bar visible above Health bar; tick at 50%, with 'dynamic' ticks for specific traits: Charged Mists 10%
-- Energy percentage: visible above Energy bar
-- Upkeep indicator: visible inside Energy bar; if possible, indicated by multiple arrows, with icon above upkeep threshold for Herald trait Elevated Compassion
-- Legend (Core F1): cooldown
-- Ancient Echo (Core F2): cooldown
-- Facet of Nature (Herald F2): active effect, cooldown
-- Heroic Command, Citadel Bombardment, Orders from Above (Renegade F1, F2, F3): cooldowns
-- Energy Meld, Alliance Tactics (Vindicator F2, F3): cooldowns
 - Cosmic Wisdom (Conduit F2): cooldowns
 - Affinity (Conduit resource)
 ### Traits
