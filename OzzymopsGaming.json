@@ -39445,7 +39445,7 @@
           ]
         },
         {
-          "enabled": true,
+          "enabled": false,
           "name": "Warrior",
           "anchor": "Parent",
           "pos": [
@@ -48107,7 +48107,2166 @@
           },
           "animation": null,
           "type": "Group",
-          "members": []
+          "members": [
+            {
+              "enabled": true,
+              "name": "Skills",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": "Inherit",
+                "threshold": {
+                  "threshold_type": "Always",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Group",
+              "members": []
+            },
+            {
+              "enabled": true,
+              "name": "Effects",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": "Inherit",
+                "threshold": {
+                  "threshold_type": "Always",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Group",
+              "members": []
+            },
+            {
+              "enabled": true,
+              "name": "Profession Mechanic",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                -26.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": "Inherit",
+                "threshold": {
+                  "threshold_type": "Always",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Group",
+              "members": [
+                {
+                  "enabled": true,
+                  "name": "Pet Skills",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": "Inherit",
+                    "threshold": {
+                      "threshold_type": "Always",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Group",
+                  "members": [
+                    {
+                      "enabled": true,
+                      "name": "F1",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": "Inherit",
+                        "threshold": {
+                          "threshold_type": "Always",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Group",
+                      "members": []
+                    },
+                    {
+                      "enabled": true,
+                      "name": "F2",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": "Inherit",
+                        "threshold": {
+                          "threshold_type": "Always",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Group",
+                      "members": []
+                    },
+                    {
+                      "enabled": true,
+                      "name": "F3",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": "Inherit",
+                        "threshold": {
+                          "threshold_type": "Always",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Group",
+                      "members": []
+                    }
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Druid",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": "Inherit",
+                    "threshold": {
+                      "threshold_type": "Always",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [
+                        "Druid"
+                      ],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Group",
+                  "members": [
+                    {
+                      "enabled": true,
+                      "name": "Astral Force Bar",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        15.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": "PrimaryResource",
+                        "threshold": {
+                          "threshold_type": "Always",
+                          "amount_type": "Percent"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Bar",
+                      "progress_kind": "Duration",
+                      "max": 100.0,
+                      "lower_bound": 0.0,
+                      "upper_bound": 1.0,
+                      "fill": [
+                        0.22509497,
+                        0.8433435,
+                        0.92655367,
+                        1.0
+                      ],
+                      "background": [
+                        0.003921569,
+                        0.34117648,
+                        0.38431373,
+                        0.39215687
+                      ],
+                      "border_size": 1.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "tick_size": 1.0,
+                      "tick_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "size": [
+                        128.0,
+                        8.0
+                      ],
+                      "align": "Center",
+                      "direction": "Right",
+                      "tick_unit": "Percent",
+                      "ticks": []
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Celestial Avatar",
+                      "anchor": "Parent",
+                      "pos": [
+                        90.0,
+                        28.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": "Inherit",
+                        "threshold": {
+                          "threshold_type": "Always",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Group",
+                      "members": [
+                        {
+                          "enabled": true,
+                          "name": "Celestial Avatar",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": {
+                              "Ability": [
+                                31869,
+                                33557
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": "Always",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "File": "OzzymopsGaming\\Skills\\Ranger\\CelestialAvatar.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            48.0,
+                            48.0
+                          ]
+                        },
+                        {
+                          "enabled": true,
+                          "name": "Celestial Avatar Unavailable",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": {
+                              "Ability": [
+                                31869,
+                                33557
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": "Missing",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "File": "OzzymopsGaming\\Skills\\Ranger\\CelestialAvatar.png"
+                          },
+                          "tint": [
+                            0.39215687,
+                            0.39215687,
+                            0.39215687,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            48.0,
+                            48.0
+                          ]
+                        },
+                        {
+                          "enabled": true,
+                          "name": "Release Celestial Avatar",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": {
+                              "Ability": [
+                                31411
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": "Always",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "File": "OzzymopsGaming\\Skills\\Ranger\\ReleaseCelestialAvatar.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            48.0,
+                            48.0
+                          ]
+                        },
+                        {
+                          "enabled": true,
+                          "name": "Celestial Avatar Cooldown",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": {
+                              "Ability": [
+                                31869,
+                                33557
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": "Missing",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Text",
+                          "text": "%c",
+                          "font": "MENOMONIA_BIG_XL",
+                          "align": "Center",
+                          "scale": 1.2,
+                          "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "decoration": "None",
+                          "conditions": []
+                        },
+                        {
+                          "enabled": true,
+                          "name": "Insufficient Resource",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": "PrimaryResource",
+                            "threshold": {
+                              "threshold_type": {
+                                "Below": 99.99
+                              },
+                              "amount_type": "Percent"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "File": "OzzymopsGaming\\Insufficient Resource.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            48.0,
+                            48.0
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Soulbeast",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": "Inherit",
+                    "threshold": {
+                      "threshold_type": "Always",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [
+                        "Soulbeast"
+                      ],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Group",
+                  "members": [
+                    {
+                      "enabled": true,
+                      "name": "Beastmode",
+                      "anchor": "Parent",
+                      "pos": [
+                        90.0,
+                        28.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": "Inherit",
+                        "threshold": {
+                          "threshold_type": "Always",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Group",
+                      "members": [
+                        {
+                          "enabled": true,
+                          "name": "Beastmode",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": {
+                              "Ability": [
+                                42944
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": "Always",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "File": "OzzymopsGaming\\Skills\\Ranger\\Beastmode.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            48.0,
+                            48.0
+                          ]
+                        },
+                        {
+                          "enabled": true,
+                          "name": "Beastmode Unavailable",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": {
+                              "Ability": [
+                                42944
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": "Missing",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "File": "OzzymopsGaming\\Skills\\Ranger\\Beastmode.png"
+                          },
+                          "tint": [
+                            0.39215687,
+                            0.39215687,
+                            0.39215687,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            48.0,
+                            48.0
+                          ]
+                        },
+                        {
+                          "enabled": true,
+                          "name": "Exit Beastmode",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": {
+                              "Ability": [
+                                43014
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": "Always",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "File": "OzzymopsGaming\\Skills\\Ranger\\ExitBeastmode.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            48.0,
+                            48.0
+                          ]
+                        },
+                        {
+                          "enabled": true,
+                          "name": "Beastmode Cooldown",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": {
+                              "Ability": [
+                                42944
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": "Missing",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Text",
+                          "text": "%c",
+                          "font": "MENOMONIA_BIG_XL",
+                          "align": "Center",
+                          "scale": 1.2,
+                          "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "decoration": "None",
+                          "conditions": []
+                        }
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Beast Skills",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": "Inherit",
+                        "threshold": {
+                          "threshold_type": "Always",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Group",
+                      "members": [
+                        {
+                          "enabled": true,
+                          "name": "F1",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": "Inherit",
+                            "threshold": {
+                              "threshold_type": "Always",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Group",
+                          "members": []
+                        },
+                        {
+                          "enabled": true,
+                          "name": "F2",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": "Inherit",
+                            "threshold": {
+                              "threshold_type": "Always",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Group",
+                          "members": []
+                        },
+                        {
+                          "enabled": true,
+                          "name": "F3",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": "Inherit",
+                            "threshold": {
+                              "threshold_type": "Always",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Group",
+                          "members": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Untamed",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": "Inherit",
+                    "threshold": {
+                      "threshold_type": "Always",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [
+                        "Untamed"
+                      ],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Group",
+                  "members": [
+                    {
+                      "enabled": true,
+                      "name": "Unleash Ranger/Pet",
+                      "anchor": "Parent",
+                      "pos": [
+                        90.0,
+                        28.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": "Inherit",
+                        "threshold": {
+                          "threshold_type": "Always",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Group",
+                      "members": [
+                        {
+                          "enabled": true,
+                          "name": "Unleash Ranger",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": {
+                              "Buff": [
+                                63317,
+                                63232
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": "Present",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "File": "OzzymopsGaming\\Skills\\Ranger\\UnleashRanger.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            48.0,
+                            48.0
+                          ]
+                        },
+                        {
+                          "enabled": true,
+                          "name": "Unleash Pet",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": {
+                              "Buff": [
+                                63145
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": "Present",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "File": "OzzymopsGaming\\Skills\\Ranger\\UnleashPet.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            48.0,
+                            48.0
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Unleashed Power",
+                      "anchor": "Parent",
+                      "pos": [
+                        141.0,
+                        28.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": "Inherit",
+                        "threshold": {
+                          "threshold_type": "Always",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Group",
+                      "members": [
+                        {
+                          "enabled": true,
+                          "name": "Unleashed Power",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": {
+                              "Buff": [
+                                63404
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": "Present",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "File": "OzzymopsGaming\\Skills\\Ranger\\UnleashedPower.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            48.0,
+                            48.0
+                          ]
+                        },
+                        {
+                          "enabled": true,
+                          "name": "Unleashed Power Unavailable",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": {
+                              "Buff": [
+                                63404
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": "Missing",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "File": "OzzymopsGaming\\Skills\\Ranger\\UnleashedPower.png"
+                          },
+                          "tint": [
+                            0.39215687,
+                            0.39215687,
+                            0.39215687,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            48.0,
+                            48.0
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Unleashed Pet Skills",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": "Inherit",
+                        "threshold": {
+                          "threshold_type": "Always",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Group",
+                      "members": [
+                        {
+                          "enabled": true,
+                          "name": "F1",
+                          "anchor": "Parent",
+                          "pos": [
+                            -34.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": "Inherit",
+                            "threshold": {
+                              "threshold_type": "Always",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Group",
+                          "members": [
+                            {
+                              "enabled": true,
+                              "name": "Venomous Outburst",
+                              "anchor": "Parent",
+                              "pos": [
+                                0.0,
+                                0.0
+                              ],
+                              "opacity": 1.0,
+                              "trigger": {
+                                "source": {
+                                  "Ability": [
+                                    63209
+                                  ]
+                                },
+                                "threshold": {
+                                  "threshold_type": "Present",
+                                  "amount_type": "Intensity"
+                                }
+                              },
+                              "filter": {
+                                "player": {
+                                  "combat": null,
+                                  "specs": [],
+                                  "weapons": [],
+                                  "traits": [],
+                                  "mounts": []
+                                },
+                                "map": {
+                                  "category": [],
+                                  "whitelist": true,
+                                  "ids": []
+                                }
+                              },
+                              "animation": null,
+                              "type": "Icon",
+                              "icon": {
+                                "File": "OzzymopsGaming\\Skills\\Ranger\\VenomousOutburst.png"
+                              },
+                              "tint": [
+                                1.0,
+                                1.0,
+                                1.0,
+                                1.0
+                              ],
+                              "zoom": 1.0,
+                              "round": 0.0,
+                              "border_size": 0.0,
+                              "border_color": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                              ],
+                              "conditions": [],
+                              "duration_bar": false,
+                              "duration_text": false,
+                              "stacks_text": false,
+                              "size": [
+                                32.0,
+                                32.0
+                              ]
+                            },
+                            {
+                              "enabled": true,
+                              "name": "Venomous Outburst Unavailable",
+                              "anchor": "Parent",
+                              "pos": [
+                                0.0,
+                                0.0
+                              ],
+                              "opacity": 1.0,
+                              "trigger": {
+                                "source": {
+                                  "Ability": [
+                                    63209
+                                  ]
+                                },
+                                "threshold": {
+                                  "threshold_type": "Missing",
+                                  "amount_type": "Intensity"
+                                }
+                              },
+                              "filter": {
+                                "player": {
+                                  "combat": null,
+                                  "specs": [],
+                                  "weapons": [],
+                                  "traits": [],
+                                  "mounts": []
+                                },
+                                "map": {
+                                  "category": [],
+                                  "whitelist": true,
+                                  "ids": []
+                                }
+                              },
+                              "animation": null,
+                              "type": "Icon",
+                              "icon": {
+                                "File": "OzzymopsGaming\\Skills\\Ranger\\VenomousOutburst.png"
+                              },
+                              "tint": [
+                                0.39215687,
+                                0.39215687,
+                                0.39215687,
+                                1.0
+                              ],
+                              "zoom": 1.0,
+                              "round": 0.0,
+                              "border_size": 0.0,
+                              "border_color": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                              ],
+                              "conditions": [],
+                              "duration_bar": false,
+                              "duration_text": false,
+                              "stacks_text": false,
+                              "size": [
+                                32.0,
+                                32.0
+                              ]
+                            },
+                            {
+                              "enabled": true,
+                              "name": "Venomous Outburst Cooldown",
+                              "anchor": "Parent",
+                              "pos": [
+                                0.0,
+                                0.0
+                              ],
+                              "opacity": 1.0,
+                              "trigger": {
+                                "source": {
+                                  "Ability": [
+                                    63209
+                                  ]
+                                },
+                                "threshold": {
+                                  "threshold_type": "Missing",
+                                  "amount_type": "Intensity"
+                                }
+                              },
+                              "filter": {
+                                "player": {
+                                  "combat": null,
+                                  "specs": [],
+                                  "weapons": [],
+                                  "traits": [],
+                                  "mounts": []
+                                },
+                                "map": {
+                                  "category": [],
+                                  "whitelist": true,
+                                  "ids": []
+                                }
+                              },
+                              "animation": null,
+                              "type": "Text",
+                              "text": "%c",
+                              "font": "MENOMONIA_BIG_XL",
+                              "align": "Center",
+                              "scale": 0.9,
+                              "color": [
+                                1.0,
+                                1.0,
+                                1.0,
+                                1.0
+                              ],
+                              "decoration": "None",
+                              "conditions": []
+                            }
+                          ]
+                        },
+                        {
+                          "enabled": true,
+                          "name": "F2",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": "Inherit",
+                            "threshold": {
+                              "threshold_type": "Always",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Group",
+                          "members": [
+                            {
+                              "enabled": true,
+                              "name": "Rending Vines",
+                              "anchor": "Parent",
+                              "pos": [
+                                0.0,
+                                0.0
+                              ],
+                              "opacity": 1.0,
+                              "trigger": {
+                                "source": {
+                                  "Ability": [
+                                    63258
+                                  ]
+                                },
+                                "threshold": {
+                                  "threshold_type": "Present",
+                                  "amount_type": "Intensity"
+                                }
+                              },
+                              "filter": {
+                                "player": {
+                                  "combat": null,
+                                  "specs": [],
+                                  "weapons": [],
+                                  "traits": [],
+                                  "mounts": []
+                                },
+                                "map": {
+                                  "category": [],
+                                  "whitelist": true,
+                                  "ids": []
+                                }
+                              },
+                              "animation": null,
+                              "type": "Icon",
+                              "icon": {
+                                "File": "OzzymopsGaming\\Skills\\Ranger\\RendingVines.png"
+                              },
+                              "tint": [
+                                1.0,
+                                1.0,
+                                1.0,
+                                1.0
+                              ],
+                              "zoom": 1.0,
+                              "round": 0.0,
+                              "border_size": 0.0,
+                              "border_color": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                              ],
+                              "conditions": [],
+                              "duration_bar": false,
+                              "duration_text": false,
+                              "stacks_text": false,
+                              "size": [
+                                32.0,
+                                32.0
+                              ]
+                            },
+                            {
+                              "enabled": true,
+                              "name": "Rending Vines Unavailable",
+                              "anchor": "Parent",
+                              "pos": [
+                                0.0,
+                                0.0
+                              ],
+                              "opacity": 1.0,
+                              "trigger": {
+                                "source": {
+                                  "Ability": [
+                                    63258
+                                  ]
+                                },
+                                "threshold": {
+                                  "threshold_type": "Missing",
+                                  "amount_type": "Intensity"
+                                }
+                              },
+                              "filter": {
+                                "player": {
+                                  "combat": null,
+                                  "specs": [],
+                                  "weapons": [],
+                                  "traits": [],
+                                  "mounts": []
+                                },
+                                "map": {
+                                  "category": [],
+                                  "whitelist": true,
+                                  "ids": []
+                                }
+                              },
+                              "animation": null,
+                              "type": "Icon",
+                              "icon": {
+                                "File": "OzzymopsGaming\\Skills\\Ranger\\RendingVines.png"
+                              },
+                              "tint": [
+                                0.39215687,
+                                0.39215687,
+                                0.39215687,
+                                1.0
+                              ],
+                              "zoom": 1.0,
+                              "round": 0.0,
+                              "border_size": 0.0,
+                              "border_color": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                              ],
+                              "conditions": [],
+                              "duration_bar": false,
+                              "duration_text": false,
+                              "stacks_text": false,
+                              "size": [
+                                32.0,
+                                32.0
+                              ]
+                            },
+                            {
+                              "enabled": true,
+                              "name": "Rending Vines Cooldown",
+                              "anchor": "Parent",
+                              "pos": [
+                                0.0,
+                                0.0
+                              ],
+                              "opacity": 1.0,
+                              "trigger": {
+                                "source": {
+                                  "Ability": [
+                                    63258
+                                  ]
+                                },
+                                "threshold": {
+                                  "threshold_type": "Missing",
+                                  "amount_type": "Intensity"
+                                }
+                              },
+                              "filter": {
+                                "player": {
+                                  "combat": null,
+                                  "specs": [],
+                                  "weapons": [],
+                                  "traits": [],
+                                  "mounts": []
+                                },
+                                "map": {
+                                  "category": [],
+                                  "whitelist": true,
+                                  "ids": []
+                                }
+                              },
+                              "animation": null,
+                              "type": "Text",
+                              "text": "%c",
+                              "font": "MENOMONIA_BIG_XL",
+                              "align": "Center",
+                              "scale": 0.9,
+                              "color": [
+                                1.0,
+                                1.0,
+                                1.0,
+                                1.0
+                              ],
+                              "decoration": "None",
+                              "conditions": []
+                            }
+                          ]
+                        },
+                        {
+                          "enabled": true,
+                          "name": "F3",
+                          "anchor": "Parent",
+                          "pos": [
+                            34.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": "Inherit",
+                            "threshold": {
+                              "threshold_type": "Always",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Group",
+                          "members": [
+                            {
+                              "enabled": true,
+                              "name": "Enveloping Haze",
+                              "anchor": "Parent",
+                              "pos": [
+                                0.0,
+                                0.0
+                              ],
+                              "opacity": 1.0,
+                              "trigger": {
+                                "source": {
+                                  "Ability": [
+                                    63094
+                                  ]
+                                },
+                                "threshold": {
+                                  "threshold_type": "Present",
+                                  "amount_type": "Intensity"
+                                }
+                              },
+                              "filter": {
+                                "player": {
+                                  "combat": null,
+                                  "specs": [],
+                                  "weapons": [],
+                                  "traits": [],
+                                  "mounts": []
+                                },
+                                "map": {
+                                  "category": [],
+                                  "whitelist": true,
+                                  "ids": []
+                                }
+                              },
+                              "animation": null,
+                              "type": "Icon",
+                              "icon": {
+                                "File": "OzzymopsGaming\\Skills\\Ranger\\EnvelopingHaze.png"
+                              },
+                              "tint": [
+                                1.0,
+                                1.0,
+                                1.0,
+                                1.0
+                              ],
+                              "zoom": 1.0,
+                              "round": 0.0,
+                              "border_size": 0.0,
+                              "border_color": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                              ],
+                              "conditions": [],
+                              "duration_bar": false,
+                              "duration_text": false,
+                              "stacks_text": false,
+                              "size": [
+                                32.0,
+                                32.0
+                              ]
+                            },
+                            {
+                              "enabled": true,
+                              "name": "Enveloping Haze Unavailable",
+                              "anchor": "Parent",
+                              "pos": [
+                                0.0,
+                                0.0
+                              ],
+                              "opacity": 1.0,
+                              "trigger": {
+                                "source": {
+                                  "Ability": [
+                                    63094
+                                  ]
+                                },
+                                "threshold": {
+                                  "threshold_type": "Missing",
+                                  "amount_type": "Intensity"
+                                }
+                              },
+                              "filter": {
+                                "player": {
+                                  "combat": null,
+                                  "specs": [],
+                                  "weapons": [],
+                                  "traits": [],
+                                  "mounts": []
+                                },
+                                "map": {
+                                  "category": [],
+                                  "whitelist": true,
+                                  "ids": []
+                                }
+                              },
+                              "animation": null,
+                              "type": "Icon",
+                              "icon": {
+                                "File": "OzzymopsGaming\\Skills\\Ranger\\EnvelopingHaze.png"
+                              },
+                              "tint": [
+                                0.39215687,
+                                0.39215687,
+                                0.39215687,
+                                1.0
+                              ],
+                              "zoom": 1.0,
+                              "round": 0.0,
+                              "border_size": 0.0,
+                              "border_color": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                              ],
+                              "conditions": [],
+                              "duration_bar": false,
+                              "duration_text": false,
+                              "stacks_text": false,
+                              "size": [
+                                32.0,
+                                32.0
+                              ]
+                            },
+                            {
+                              "enabled": true,
+                              "name": "Enveloping Haze Cooldown",
+                              "anchor": "Parent",
+                              "pos": [
+                                0.0,
+                                0.0
+                              ],
+                              "opacity": 1.0,
+                              "trigger": {
+                                "source": {
+                                  "Ability": [
+                                    63094
+                                  ]
+                                },
+                                "threshold": {
+                                  "threshold_type": "Missing",
+                                  "amount_type": "Intensity"
+                                }
+                              },
+                              "filter": {
+                                "player": {
+                                  "combat": null,
+                                  "specs": [],
+                                  "weapons": [],
+                                  "traits": [],
+                                  "mounts": []
+                                },
+                                "map": {
+                                  "category": [],
+                                  "whitelist": true,
+                                  "ids": []
+                                }
+                              },
+                              "animation": null,
+                              "type": "Text",
+                              "text": "%c",
+                              "font": "MENOMONIA_BIG_XL",
+                              "align": "Center",
+                              "scale": 0.9,
+                              "color": [
+                                1.0,
+                                1.0,
+                                1.0,
+                                1.0
+                              ],
+                              "decoration": "None",
+                              "conditions": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "enabled": true,

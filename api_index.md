@@ -291,6 +291,16 @@ Chant of Freedom: 77155
 ## Engineer
 
 ## Ranger
+Celestial Avatar: 31869, 33557
+Release Celestial Avatar: 31411
+Beastmode: 42944
+Exit Beastmode: 43014
+Unleash Pet: 63145
+Unleash Ranger: 63317, 63232
+Unleashed Power: 63404
+Venomous Outburst: 63209
+Rending Vines: 63258
+Enveloping Haze: 63094
 
 ## Thief
 

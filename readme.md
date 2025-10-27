@@ -130,6 +130,16 @@
 - Discipline => Heightened Focus: effect duration
 - Spellbreaker => Attacker's Insight: effect duration
 
+## Engineer
+
+## Ranger
+### Profession Mechanics
+- Celestial Avatar, Release Celestial Avatar (Druid F5): cooldown
+- Astral Force (Druid Resouce): bar visible above Health bar
+- Beastmode, Exit Beastmode (Soulbeast F5): active effect, cooldown
+- Unleash Ranger, Unleash Pet (Untamed F5): active effect
+- Unleashed Pet Skills (Untamed F1, F2, F3): cooldowns, only if Unleashed Pet
+
 ------------
 
 # Planned features:
@@ -201,12 +211,7 @@
 - Forest's Fortification (Untamed Elite): effect duration
 ### Profession Mechanics
 - Pet Skills (Core F2): available skill, cooldowns
-- Celestial Avatar, Release Celestial Avatar (Druid F5): cooldown
-- Astral Force (Druid Resouce): bar visible above Health bar
-- Beastmode, Exit Beastmode (Soulbeast F5): active effect, cooldown
 - Beast Skills (Soulbeast F1, F2, F3): available skills, cooldowns
-- Unleash Ranger, Unleash Pet (Untamed F5): active effect
-- Unleashed Pet Skills (Untamed F1, F2, F3): cooldowns, only if Unleashed Pet
 - Pet Skills (Untamed F1, F2, F3): available skills, cooldowns, only if Unleashed Ranger
 - Summon Cyclone Bow, Dismiss Cyclone Bow (Galeshot F5): cooldown
 - Arrows (Galeshot Resource): visible above Health bar
