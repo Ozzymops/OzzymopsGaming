@@ -449,6 +449,7 @@ Forerunner of Death: 62811
 Saint of zu Heltzer: 62994
 
 ## Warrior
+Berserk: 29502
 
 ## Engineer
 

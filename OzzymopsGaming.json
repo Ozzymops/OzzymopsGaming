@@ -39851,7 +39851,7 @@
                   "members": [
                     {
                       "enabled": true,
-                      "name": "Eviscerate",
+                      "name": "Core",
                       "anchor": "Parent",
                       "pos": [
                         0.0,
@@ -39859,14 +39859,7 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": {
-                          "Ability": [
-                            14353,
-                            14422,
-                            14423,
-                            14424
-                          ]
-                        },
+                        "source": "Inherit",
                         "threshold": {
                           "threshold_type": "Always",
                           "amount_type": "Intensity"
@@ -39887,37 +39880,804 @@
                         }
                       },
                       "animation": null,
-                      "type": "Icon",
-                      "icon": {
-                        "File": "OzzymopsGaming\\Skills\\Warrior\\Eviscerate.png"
-                      },
-                      "tint": [
-                        1.0,
-                        1.0,
-                        1.0,
-                        1.0
-                      ],
-                      "zoom": 1.0,
-                      "round": 0.0,
-                      "border_size": 0.0,
-                      "border_color": [
-                        0.0,
-                        0.0,
-                        0.0,
-                        1.0
-                      ],
-                      "conditions": [],
-                      "duration_bar": false,
-                      "duration_text": false,
-                      "stacks_text": false,
-                      "size": [
-                        48.0,
-                        48.0
+                      "type": "Group",
+                      "members": [
+                        {
+                          "enabled": true,
+                          "name": "Eviscerate",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": {
+                              "Ability": [
+                                14353,
+                                14422,
+                                14423,
+                                14424
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": "Always",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "File": "OzzymopsGaming\\Skills\\Warrior\\Eviscerate.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            48.0,
+                            48.0
+                          ]
+                        },
+                        {
+                          "enabled": true,
+                          "name": "Breaching Strike",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": {
+                              "Ability": [
+                                45252
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": "Always",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "File": "OzzymopsGaming\\Skills\\Warrior\\BreachingStrike.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            48.0,
+                            48.0
+                          ]
+                        },
+                        {
+                          "enabled": true,
+                          "name": "Skull Crack",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": {
+                              "Ability": [
+                                14414,
+                                14425,
+                                14426,
+                                14427
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": "Always",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "File": "OzzymopsGaming\\Skills\\Warrior\\SkullCrack.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            48.0,
+                            48.0
+                          ]
+                        },
+                        {
+                          "enabled": true,
+                          "name": "Flurry",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": {
+                              "Ability": [
+                                14367,
+                                14428,
+                                14429,
+                                14430
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": "Always",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "File": "OzzymopsGaming\\Skills\\Warrior\\Flurry.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            48.0,
+                            48.0
+                          ]
+                        },
+                        {
+                          "enabled": true,
+                          "name": "Arcing Slice",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": {
+                              "Ability": [
+                                14375,
+                                14545,
+                                14546,
+                                14547
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": "Always",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "File": "OzzymopsGaming\\Skills\\Warrior\\ArcingSlice.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            48.0,
+                            48.0
+                          ]
+                        },
+                        {
+                          "enabled": true,
+                          "name": "Earthshaker",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": {
+                              "Ability": [
+                                14387,
+                                14512,
+                                14513,
+                                14514
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": "Always",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "File": "OzzymopsGaming\\Skills\\Warrior\\Earthshaker.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            48.0,
+                            48.0
+                          ]
+                        },
+                        {
+                          "enabled": true,
+                          "name": "Combustive Shot",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": {
+                              "Ability": [
+                                14506,
+                                14520,
+                                14521,
+                                14522
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": "Always",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "File": "OzzymopsGaming\\Skills\\Warrior\\CombustiveShot.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            48.0,
+                            48.0
+                          ]
+                        },
+                        {
+                          "enabled": true,
+                          "name": "Kill Shot",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": {
+                              "Ability": [
+                                14396,
+                                14473,
+                                14474,
+                                14475
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": "Always",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "File": "OzzymopsGaming\\Skills\\Warrior\\KillShot.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            48.0,
+                            48.0
+                          ]
+                        },
+                        {
+                          "enabled": true,
+                          "name": "Path to Victory",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": {
+                              "Ability": [
+                                71922,
+                                71932,
+                                71950,
+                                72029,
+                                72089
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": "Always",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "File": "OzzymopsGaming\\Skills\\Warrior\\PathtoVictory.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            48.0,
+                            48.0
+                          ]
+                        },
+                        {
+                          "enabled": true,
+                          "name": "Harrier's Toss",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": {
+                              "Ability": [
+                                72911,
+                                73006,
+                                73014,
+                                73024,
+                                73042
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": "Always",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "File": "OzzymopsGaming\\Skills\\Warrior\\HarriersToss.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            48.0,
+                            48.0
+                          ]
+                        },
+                        {
+                          "enabled": true,
+                          "name": "Whirling Strike",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": {
+                              "Ability": [
+                                14443,
+                                14549,
+                                14550,
+                                14551
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": "Always",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "File": "OzzymopsGaming\\Skills\\Warrior\\WhirlingStrike.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            48.0,
+                            48.0
+                          ]
+                        },
+                        {
+                          "enabled": true,
+                          "name": "Forceful Shot",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": {
+                              "Ability": [
+                                14544,
+                                14469,
+                                14470,
+                                14471
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": "Always",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "File": "OzzymopsGaming\\Skills\\Warrior\\WhirlingStrike.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            48.0,
+                            48.0
+                          ]
+                        }
                       ]
                     },
                     {
                       "enabled": true,
-                      "name": "Breaching Strike",
+                      "name": "Berserker",
                       "anchor": "Parent",
                       "pos": [
                         0.0,
@@ -39925,11 +40685,7 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": {
-                          "Ability": [
-                            45252
-                          ]
-                        },
+                        "source": "Inherit",
                         "threshold": {
                           "threshold_type": "Always",
                           "amount_type": "Intensity"
@@ -39950,562 +40706,764 @@
                         }
                       },
                       "animation": null,
-                      "type": "Icon",
-                      "icon": {
-                        "File": "OzzymopsGaming\\Skills\\Warrior\\BreachingStrike.png"
-                      },
-                      "tint": [
-                        1.0,
-                        1.0,
-                        1.0,
-                        1.0
-                      ],
-                      "zoom": 1.0,
-                      "round": 0.0,
-                      "border_size": 0.0,
-                      "border_color": [
-                        0.0,
-                        0.0,
-                        0.0,
-                        1.0
-                      ],
-                      "conditions": [],
-                      "duration_bar": false,
-                      "duration_text": false,
-                      "stacks_text": false,
-                      "size": [
-                        48.0,
-                        48.0
-                      ]
-                    },
-                    {
-                      "enabled": true,
-                      "name": "Skull Crack",
-                      "anchor": "Parent",
-                      "pos": [
-                        0.0,
-                        0.0
-                      ],
-                      "opacity": 1.0,
-                      "trigger": {
-                        "source": {
-                          "Ability": [
-                            14414,
-                            14425,
-                            14426,
-                            14427
+                      "type": "Group",
+                      "members": [
+                        {
+                          "enabled": true,
+                          "name": "Decapitate",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": {
+                              "Ability": [
+                                30851
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": "Always",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "File": "OzzymopsGaming\\Skills\\Warrior\\Decapitate.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            48.0,
+                            48.0
                           ]
                         },
-                        "threshold": {
-                          "threshold_type": "Always",
-                          "amount_type": "Intensity"
-                        }
-                      },
-                      "filter": {
-                        "player": {
-                          "combat": null,
-                          "specs": [],
-                          "weapons": [],
-                          "traits": [],
-                          "mounts": []
-                        },
-                        "map": {
-                          "category": [],
-                          "whitelist": true,
-                          "ids": []
-                        }
-                      },
-                      "animation": null,
-                      "type": "Icon",
-                      "icon": {
-                        "File": "OzzymopsGaming\\Skills\\Warrior\\SkullCrack.png"
-                      },
-                      "tint": [
-                        1.0,
-                        1.0,
-                        1.0,
-                        1.0
-                      ],
-                      "zoom": 1.0,
-                      "round": 0.0,
-                      "border_size": 0.0,
-                      "border_color": [
-                        0.0,
-                        0.0,
-                        0.0,
-                        1.0
-                      ],
-                      "conditions": [],
-                      "duration_bar": false,
-                      "duration_text": false,
-                      "stacks_text": false,
-                      "size": [
-                        48.0,
-                        48.0
-                      ]
-                    },
-                    {
-                      "enabled": true,
-                      "name": "Flurry",
-                      "anchor": "Parent",
-                      "pos": [
-                        0.0,
-                        0.0
-                      ],
-                      "opacity": 1.0,
-                      "trigger": {
-                        "source": {
-                          "Ability": [
-                            14367,
-                            14428,
-                            14429,
-                            14430
+                        {
+                          "enabled": true,
+                          "name": "Slicing Maelstrom",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": {
+                              "Ability": [
+                                69290
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": "Always",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "File": "OzzymopsGaming\\Skills\\Warrior\\SlicingMaelstrom.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            48.0,
+                            48.0
                           ]
                         },
-                        "threshold": {
-                          "threshold_type": "Always",
-                          "amount_type": "Intensity"
-                        }
-                      },
-                      "filter": {
-                        "player": {
-                          "combat": null,
-                          "specs": [],
-                          "weapons": [],
-                          "traits": [],
-                          "mounts": []
-                        },
-                        "map": {
-                          "category": [],
-                          "whitelist": true,
-                          "ids": []
-                        }
-                      },
-                      "animation": null,
-                      "type": "Icon",
-                      "icon": {
-                        "File": "OzzymopsGaming\\Skills\\Warrior\\Flurry.png"
-                      },
-                      "tint": [
-                        1.0,
-                        1.0,
-                        1.0,
-                        1.0
-                      ],
-                      "zoom": 1.0,
-                      "round": 0.0,
-                      "border_size": 0.0,
-                      "border_color": [
-                        0.0,
-                        0.0,
-                        0.0,
-                        1.0
-                      ],
-                      "conditions": [],
-                      "duration_bar": false,
-                      "duration_text": false,
-                      "stacks_text": false,
-                      "size": [
-                        48.0,
-                        48.0
-                      ]
-                    },
-                    {
-                      "enabled": true,
-                      "name": "Arcing Slice",
-                      "anchor": "Parent",
-                      "pos": [
-                        0.0,
-                        0.0
-                      ],
-                      "opacity": 1.0,
-                      "trigger": {
-                        "source": {
-                          "Ability": [
-                            14375,
-                            14545,
-                            14546,
-                            14547
+                        {
+                          "enabled": true,
+                          "name": "Skull Grinder",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": {
+                              "Ability": [
+                                29679
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": "Always",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "File": "OzzymopsGaming\\Skills\\Warrior\\SkullGrinder.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            48.0,
+                            48.0
                           ]
                         },
-                        "threshold": {
-                          "threshold_type": "Always",
-                          "amount_type": "Intensity"
-                        }
-                      },
-                      "filter": {
-                        "player": {
-                          "combat": null,
-                          "specs": [],
-                          "weapons": [],
-                          "traits": [],
-                          "mounts": []
-                        },
-                        "map": {
-                          "category": [],
-                          "whitelist": true,
-                          "ids": []
-                        }
-                      },
-                      "animation": null,
-                      "type": "Icon",
-                      "icon": {
-                        "File": "OzzymopsGaming\\Skills\\Warrior\\ArcingSlice.png"
-                      },
-                      "tint": [
-                        1.0,
-                        1.0,
-                        1.0,
-                        1.0
-                      ],
-                      "zoom": 1.0,
-                      "round": 0.0,
-                      "border_size": 0.0,
-                      "border_color": [
-                        0.0,
-                        0.0,
-                        0.0,
-                        1.0
-                      ],
-                      "conditions": [],
-                      "duration_bar": false,
-                      "duration_text": false,
-                      "stacks_text": false,
-                      "size": [
-                        48.0,
-                        48.0
-                      ]
-                    },
-                    {
-                      "enabled": true,
-                      "name": "Earthshaker",
-                      "anchor": "Parent",
-                      "pos": [
-                        0.0,
-                        0.0
-                      ],
-                      "opacity": 1.0,
-                      "trigger": {
-                        "source": {
-                          "Ability": [
-                            14387,
-                            14512,
-                            14513,
-                            14514
+                        {
+                          "enabled": true,
+                          "name": "Flaming Flurry",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": {
+                              "Ability": [
+                                30682
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": "Always",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "File": "OzzymopsGaming\\Skills\\Warrior\\FlamingFlurry.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            48.0,
+                            48.0
                           ]
                         },
-                        "threshold": {
-                          "threshold_type": "Always",
-                          "amount_type": "Intensity"
-                        }
-                      },
-                      "filter": {
-                        "player": {
-                          "combat": null,
-                          "specs": [],
-                          "weapons": [],
-                          "traits": [],
-                          "mounts": []
-                        },
-                        "map": {
-                          "category": [],
-                          "whitelist": true,
-                          "ids": []
-                        }
-                      },
-                      "animation": null,
-                      "type": "Icon",
-                      "icon": {
-                        "File": "OzzymopsGaming\\Skills\\Warrior\\Earthshaker.png"
-                      },
-                      "tint": [
-                        1.0,
-                        1.0,
-                        1.0,
-                        1.0
-                      ],
-                      "zoom": 1.0,
-                      "round": 0.0,
-                      "border_size": 0.0,
-                      "border_color": [
-                        0.0,
-                        0.0,
-                        0.0,
-                        1.0
-                      ],
-                      "conditions": [],
-                      "duration_bar": false,
-                      "duration_text": false,
-                      "stacks_text": false,
-                      "size": [
-                        48.0,
-                        48.0
-                      ]
-                    },
-                    {
-                      "enabled": true,
-                      "name": "Combustive Shot",
-                      "anchor": "Parent",
-                      "pos": [
-                        0.0,
-                        0.0
-                      ],
-                      "opacity": 1.0,
-                      "trigger": {
-                        "source": {
-                          "Ability": [
-                            14506,
-                            14520,
-                            14521,
-                            14522
+                        {
+                          "enabled": true,
+                          "name": "Arc Divider",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": {
+                              "Ability": [
+                                29852
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": "Always",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "File": "OzzymopsGaming\\Skills\\Warrior\\ArcDivider.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            48.0,
+                            48.0
                           ]
                         },
-                        "threshold": {
-                          "threshold_type": "Always",
-                          "amount_type": "Intensity"
-                        }
-                      },
-                      "filter": {
-                        "player": {
-                          "combat": null,
-                          "specs": [],
-                          "weapons": [],
-                          "traits": [],
-                          "mounts": []
-                        },
-                        "map": {
-                          "category": [],
-                          "whitelist": true,
-                          "ids": []
-                        }
-                      },
-                      "animation": null,
-                      "type": "Icon",
-                      "icon": {
-                        "File": "OzzymopsGaming\\Skills\\Warrior\\CombustiveShot.png"
-                      },
-                      "tint": [
-                        1.0,
-                        1.0,
-                        1.0,
-                        1.0
-                      ],
-                      "zoom": 1.0,
-                      "round": 0.0,
-                      "border_size": 0.0,
-                      "border_color": [
-                        0.0,
-                        0.0,
-                        0.0,
-                        1.0
-                      ],
-                      "conditions": [],
-                      "duration_bar": false,
-                      "duration_text": false,
-                      "stacks_text": false,
-                      "size": [
-                        48.0,
-                        48.0
-                      ]
-                    },
-                    {
-                      "enabled": true,
-                      "name": "Kill Shot",
-                      "anchor": "Parent",
-                      "pos": [
-                        0.0,
-                        0.0
-                      ],
-                      "opacity": 1.0,
-                      "trigger": {
-                        "source": {
-                          "Ability": [
-                            14396,
-                            14473,
-                            14474,
-                            14475
+                        {
+                          "enabled": true,
+                          "name": "Rupturing Smash",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": {
+                              "Ability": [
+                                30879
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": "Always",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "File": "OzzymopsGaming\\Skills\\Warrior\\RupturingSmash.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            48.0,
+                            48.0
                           ]
                         },
-                        "threshold": {
-                          "threshold_type": "Always",
-                          "amount_type": "Intensity"
-                        }
-                      },
-                      "filter": {
-                        "player": {
-                          "combat": null,
-                          "specs": [],
-                          "weapons": [],
-                          "traits": [],
-                          "mounts": []
-                        },
-                        "map": {
-                          "category": [],
-                          "whitelist": true,
-                          "ids": []
-                        }
-                      },
-                      "animation": null,
-                      "type": "Icon",
-                      "icon": {
-                        "File": "OzzymopsGaming\\Skills\\Warrior\\KillShot.png"
-                      },
-                      "tint": [
-                        1.0,
-                        1.0,
-                        1.0,
-                        1.0
-                      ],
-                      "zoom": 1.0,
-                      "round": 0.0,
-                      "border_size": 0.0,
-                      "border_color": [
-                        0.0,
-                        0.0,
-                        0.0,
-                        1.0
-                      ],
-                      "conditions": [],
-                      "duration_bar": false,
-                      "duration_text": false,
-                      "stacks_text": false,
-                      "size": [
-                        48.0,
-                        48.0
-                      ]
-                    },
-                    {
-                      "enabled": true,
-                      "name": "Path to Victory",
-                      "anchor": "Parent",
-                      "pos": [
-                        0.0,
-                        0.0
-                      ],
-                      "opacity": 1.0,
-                      "trigger": {
-                        "source": {
-                          "Ability": [
-                            71922,
-                            71932,
-                            71950,
-                            72029,
-                            72089
+                        {
+                          "enabled": true,
+                          "name": "Scorched Earth",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": {
+                              "Ability": [
+                                29923
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": "Always",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "File": "OzzymopsGaming\\Skills\\Warrior\\ScorchedEarth.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            48.0,
+                            48.0
                           ]
                         },
-                        "threshold": {
-                          "threshold_type": "Always",
-                          "amount_type": "Intensity"
-                        }
-                      },
-                      "filter": {
-                        "player": {
-                          "combat": null,
-                          "specs": [],
-                          "weapons": [],
-                          "traits": [],
-                          "mounts": []
-                        },
-                        "map": {
-                          "category": [],
-                          "whitelist": true,
-                          "ids": []
-                        }
-                      },
-                      "animation": null,
-                      "type": "Icon",
-                      "icon": {
-                        "File": "OzzymopsGaming\\Skills\\Warrior\\PathtoVictory.png"
-                      },
-                      "tint": [
-                        1.0,
-                        1.0,
-                        1.0,
-                        1.0
-                      ],
-                      "zoom": 1.0,
-                      "round": 0.0,
-                      "border_size": 0.0,
-                      "border_color": [
-                        0.0,
-                        0.0,
-                        0.0,
-                        1.0
-                      ],
-                      "conditions": [],
-                      "duration_bar": false,
-                      "duration_text": false,
-                      "stacks_text": false,
-                      "size": [
-                        48.0,
-                        48.0
-                      ]
-                    },
-                    {
-                      "enabled": true,
-                      "name": "Harrier's Toss",
-                      "anchor": "Parent",
-                      "pos": [
-                        0.0,
-                        0.0
-                      ],
-                      "opacity": 1.0,
-                      "trigger": {
-                        "source": {
-                          "Ability": [
-                            72911,
-                            73006,
-                            73014,
-                            73024,
-                            73042
+                        {
+                          "enabled": true,
+                          "name": "Gun Flame",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": {
+                              "Ability": [
+                                29644
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": "Always",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "File": "OzzymopsGaming\\Skills\\Warrior\\GunFlame.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            48.0,
+                            48.0
                           ]
                         },
-                        "threshold": {
-                          "threshold_type": "Always",
-                          "amount_type": "Intensity"
-                        }
-                      },
-                      "filter": {
-                        "player": {
-                          "combat": null,
-                          "specs": [],
-                          "weapons": [],
-                          "traits": [],
-                          "mounts": []
+                        {
+                          "enabled": true,
+                          "name": "Rampart Splitter",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": {
+                              "Ability": [
+                                71875
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": "Always",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "File": "OzzymopsGaming\\Skills\\Warrior\\RampartSplitter.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            48.0,
+                            48.0
+                          ]
                         },
-                        "map": {
-                          "category": [],
-                          "whitelist": true,
-                          "ids": []
+                        {
+                          "enabled": true,
+                          "name": "Wild Throw",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": {
+                              "Ability": [
+                                73103
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": "Always",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "File": "OzzymopsGaming\\Skills\\Warrior\\WildThrow.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            48.0,
+                            48.0
+                          ]
+                        },
+                        {
+                          "enabled": true,
+                          "name": "Wild Whirl",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": {
+                              "Ability": [
+                                31048
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": "Always",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "File": "OzzymopsGaming\\Skills\\Warrior\\WildWhirl.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            48.0,
+                            48.0
+                          ]
+                        },
+                        {
+                          "enabled": true,
+                          "name": "Burning Shackles",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": {
+                              "Ability": [
+                                30989
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": "Always",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "File": "OzzymopsGaming\\Skills\\Warrior\\BurningShackles.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            48.0,
+                            48.0
+                          ]
                         }
-                      },
-                      "animation": null,
-                      "type": "Icon",
-                      "icon": {
-                        "File": "OzzymopsGaming\\Skills\\Warrior\\PathtoVictory.png"
-                      },
-                      "tint": [
-                        1.0,
-                        1.0,
-                        1.0,
-                        1.0
-                      ],
-                      "zoom": 1.0,
-                      "round": 0.0,
-                      "border_size": 0.0,
-                      "border_color": [
-                        0.0,
-                        0.0,
-                        0.0,
-                        1.0
-                      ],
-                      "conditions": [],
-                      "duration_bar": false,
-                      "duration_text": false,
-                      "stacks_text": false,
-                      "size": [
-                        48.0,
-                        48.0
                       ]
                     },
                     {
@@ -40675,6 +41633,612 @@
                       "size": [
                         48.0,
                         48.0
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Berserker",
+                  "anchor": "Parent",
+                  "pos": [
+                    141.0,
+                    28.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": "Inherit",
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [
+                        "Berserker"
+                      ],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Group",
+                  "members": [
+                    {
+                      "enabled": true,
+                      "name": "Berserk & Eternal Champion",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": "Inherit",
+                        "threshold": {
+                          "threshold_type": "Always",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Group",
+                      "members": [
+                        {
+                          "enabled": true,
+                          "name": "Berserk",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": {
+                              "Ability": [
+                                30435,
+                                30185
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": "Always",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "File": "OzzymopsGaming\\Skills\\Warrior\\Berserk.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            48.0,
+                            48.0
+                          ]
+                        },
+                        {
+                          "enabled": true,
+                          "name": "Burst Cooldown Overlay",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 0.4,
+                          "trigger": {
+                            "source": {
+                              "SkillbarSlot": "Profession2"
+                            },
+                            "threshold": {
+                              "threshold_type": "Missing",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "File": "OzzymopsGaming\\Pixel.png"
+                          },
+                          "tint": [
+                            0.000001,
+                            9.9999e-7,
+                            9.9999e-7,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            48.0,
+                            48.0
+                          ]
+                        },
+                        {
+                          "enabled": true,
+                          "name": "Burst Cooldown",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": {
+                              "SkillbarSlot": "Profession2"
+                            },
+                            "threshold": {
+                              "threshold_type": "Missing",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Text",
+                          "text": "%c",
+                          "font": "MENOMONIA_BIG_XL",
+                          "align": "Center",
+                          "scale": 1.2,
+                          "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "decoration": "None",
+                          "conditions": []
+                        },
+                        {
+                          "enabled": true,
+                          "name": "Insufficient Resource",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": "PrimaryResource",
+                            "threshold": {
+                              "threshold_type": {
+                                "Below": 99.99
+                              },
+                              "amount_type": "Percent"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "File": "OzzymopsGaming\\Insufficient Resource.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            48.0,
+                            48.0
+                          ]
+                        },
+                        {
+                          "enabled": true,
+                          "name": "Berserk Background",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": {
+                              "Buff": [
+                                29502
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": "Present",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "File": "OzzymopsGaming\\Skills\\Warrior\\Berserk.png"
+                          },
+                          "tint": [
+                            0.39215687,
+                            0.39215687,
+                            0.39215687,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            48.0,
+                            48.0
+                          ]
+                        },
+                        {
+                          "enabled": true,
+                          "name": "Berserk Active",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": {
+                              "Buff": [
+                                29502
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": "Present",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "File": "OzzymopsGaming\\Skills\\Warrior\\Berserk.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [
+                            {
+                              "trigger": {
+                                "ProgressThreshold": {
+                                  "threshold_type": {
+                                    "Below": 5.0
+                                  },
+                                  "amount_type": "Duration"
+                                }
+                              },
+                              "properties": {
+                                "tint": [
+                                  1.0,
+                                  1.0,
+                                  1.0,
+                                  0.0
+                                ],
+                                "zoom": null,
+                                "round": null,
+                                "border_size": null,
+                                "border_color": null
+                              }
+                            }
+                          ],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            48.0,
+                            48.0
+                          ]
+                        },
+                        {
+                          "enabled": true,
+                          "name": "Berserk Running Out",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": {
+                              "Buff": [
+                                29502
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": "Present",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": {
+                            "kind": "Pulse",
+                            "period": 800
+                          },
+                          "type": "Icon",
+                          "icon": {
+                            "File": "OzzymopsGaming\\Skills\\Warrior\\Berserk.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [
+                            {
+                              "trigger": {
+                                "ProgressThreshold": {
+                                  "threshold_type": {
+                                    "Above": 5.0
+                                  },
+                                  "amount_type": "Duration"
+                                }
+                              },
+                              "properties": {
+                                "tint": [
+                                  1.0,
+                                  1.0,
+                                  1.0,
+                                  0.0
+                                ],
+                                "zoom": null,
+                                "round": null,
+                                "border_size": null,
+                                "border_color": null
+                              }
+                            }
+                          ],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            48.0,
+                            48.0
+                          ]
+                        },
+                        {
+                          "enabled": true,
+                          "name": "Eternal Champion",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": {
+                              "Ability": [
+                                29521
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": "Always",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "File": "OzzymopsGaming\\Skills\\Warrior\\EternalChampion.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            48.0,
+                            48.0
+                          ]
+                        }
                       ]
                     }
                   ]
