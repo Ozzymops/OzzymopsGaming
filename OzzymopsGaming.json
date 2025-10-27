@@ -4717,6 +4717,34 @@
                                 "border_size": null,
                                 "border_color": null
                               }
+                            },
+                            {
+                              "trigger": {
+                                "Player": {
+                                  "combat": null,
+                                  "specs": [],
+                                  "weapons": [],
+                                  "traits": [
+                                    {
+                                      "id": 1380,
+                                      "present": true
+                                    }
+                                  ],
+                                  "mounts": []
+                                }
+                              },
+                              "properties": {
+                                "tint": [
+                                  1.0,
+                                  0.88235295,
+                                  0.0,
+                                  1.0
+                                ],
+                                "zoom": null,
+                                "round": null,
+                                "border_size": null,
+                                "border_color": null
+                              }
                             }
                           ],
                           "duration_bar": false,
@@ -5063,7 +5091,7 @@
                                   "weapons": [],
                                   "traits": [
                                     {
-                                      "id": 0,
+                                      "id": 1708,
                                       "present": true
                                     }
                                   ],
@@ -5072,9 +5100,9 @@
                               },
                               "properties": {
                                 "tint": [
+                                  1.0,
+                                  0.88235295,
                                   0.0,
-                                  1.0,
-                                  1.0,
                                   1.0
                                 ],
                                 "zoom": null,
@@ -5955,6 +5983,62 @@
                                 "border_size": null,
                                 "border_color": null
                               }
+                            },
+                            {
+                              "trigger": {
+                                "Player": {
+                                  "combat": null,
+                                  "specs": [],
+                                  "weapons": [],
+                                  "traits": [
+                                    {
+                                      "id": 1342,
+                                      "present": true
+                                    }
+                                  ],
+                                  "mounts": []
+                                }
+                              },
+                              "properties": {
+                                "tint": [
+                                  1.0,
+                                  0.88235295,
+                                  0.0,
+                                  1.0
+                                ],
+                                "zoom": null,
+                                "round": null,
+                                "border_size": null,
+                                "border_color": null
+                              }
+                            },
+                            {
+                              "trigger": {
+                                "Player": {
+                                  "combat": null,
+                                  "specs": [],
+                                  "weapons": [],
+                                  "traits": [
+                                    {
+                                      "id": 1343,
+                                      "present": true
+                                    }
+                                  ],
+                                  "mounts": []
+                                }
+                              },
+                              "properties": {
+                                "tint": [
+                                  1.0,
+                                  0.88235295,
+                                  0.0,
+                                  1.0
+                                ],
+                                "zoom": null,
+                                "round": null,
+                                "border_size": null,
+                                "border_color": null
+                              }
                             }
                           ],
                           "duration_bar": false,
@@ -6301,7 +6385,7 @@
                                   "weapons": [],
                                   "traits": [
                                     {
-                                      "id": 0,
+                                      "id": 1453,
                                       "present": true
                                     }
                                   ],
@@ -6310,9 +6394,37 @@
                               },
                               "properties": {
                                 "tint": [
+                                  1.0,
+                                  0.8813559,
                                   0.0,
+                                  1.0
+                                ],
+                                "zoom": null,
+                                "round": null,
+                                "border_size": null,
+                                "border_color": null
+                              }
+                            },
+                            {
+                              "trigger": {
+                                "Player": {
+                                  "combat": null,
+                                  "specs": [],
+                                  "weapons": [],
+                                  "traits": [
+                                    {
+                                      "id": 1454,
+                                      "present": true
+                                    }
+                                  ],
+                                  "mounts": []
+                                }
+                              },
+                              "properties": {
+                                "tint": [
                                   1.0,
-                                  1.0,
+                                  0.88235295,
+                                  0.0,
                                   1.0
                                 ],
                                 "zoom": null,
@@ -6729,6 +6841,34 @@
                                   0.0,
                                   1.0,
                                   1.0,
+                                  1.0
+                                ],
+                                "zoom": null,
+                                "round": null,
+                                "border_size": null,
+                                "border_color": null
+                              }
+                            },
+                            {
+                              "trigger": {
+                                "Player": {
+                                  "combat": null,
+                                  "specs": [],
+                                  "weapons": [],
+                                  "traits": [
+                                    {
+                                      "id": 1440,
+                                      "present": true
+                                    }
+                                  ],
+                                  "mounts": []
+                                }
+                              },
+                              "properties": {
+                                "tint": [
+                                  1.0,
+                                  0.88235295,
+                                  0.0,
                                   1.0
                                 ],
                                 "zoom": null,
@@ -7447,7 +7587,7 @@
                                   "weapons": [],
                                   "traits": [
                                     {
-                                      "id": 0,
+                                      "id": 1413,
                                       "present": true
                                     }
                                   ],
@@ -7456,9 +7596,9 @@
                               },
                               "properties": {
                                 "tint": [
+                                  1.0,
+                                  0.88235295,
                                   0.0,
-                                  1.0,
-                                  1.0,
                                   1.0
                                 ],
                                 "zoom": null,
@@ -39375,7 +39515,2635 @@
               },
               "animation": null,
               "type": "Group",
-              "members": []
+              "members": [
+                {
+                  "enabled": true,
+                  "name": "Counterblow",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Ability": [
+                        14548
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Warrior\\Counterblow.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Below": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Counterblow Running Out",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Ability": [
+                        14548
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": {
+                    "kind": "Pulse",
+                    "period": 800
+                  },
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Warrior\\Counterblow.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Above": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Dragon's Roar",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Ability": [
+                        62800
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Always",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Warrior\\DragonsRoar.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Dragon's Roar Unavailable",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Ability": [
+                        62800
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": {
+                        "Below": 0.0
+                      },
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Warrior\\DragonsRoar.png"
+                  },
+                  "tint": [
+                    0.39215687,
+                    0.39215687,
+                    0.39215687,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Dragon's Roar Stacks",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Ability": [
+                        62800
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": {
+                        "Above": 2.0
+                      },
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Text",
+                  "text": "%i",
+                  "font": "MENOMONIA_BIG_XL",
+                  "align": "Center",
+                  "scale": 1.0,
+                  "color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "decoration": "Shadow",
+                  "conditions": []
+                },
+                {
+                  "enabled": true,
+                  "name": "Shield Stance",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        756,
+                        860,
+                        2128,
+                        32264
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": {
+                    "kind": "Pulse",
+                    "period": 800
+                  },
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Warrior\\ShieldStance.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Flames of War",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        31708
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Warrior\\FlamesofWar.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Below": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Flames of War Running Out",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        31708
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": {
+                    "kind": "Pulse",
+                    "period": 800
+                  },
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Warrior\\FlamesofWar.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Above": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Rampage",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    68.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        7734,
+                        14484
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Warrior\\Rampage.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Below": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Rampage Running Out",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    68.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        7734,
+                        14484
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": {
+                    "kind": "Pulse",
+                    "period": 800
+                  },
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Warrior\\Rampage.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Above": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Defiant Stance",
+                  "anchor": "Parent",
+                  "pos": [
+                    -43.0,
+                    -8.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        21816
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Warrior\\DefiantStance.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Below": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    16.0,
+                    16.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Defiant Stance Running Out",
+                  "anchor": "Parent",
+                  "pos": [
+                    -43.0,
+                    -8.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        21816
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": {
+                    "kind": "Pulse",
+                    "period": 800
+                  },
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Warrior\\DefiantStance.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Above": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    16.0,
+                    16.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Balanced Stance",
+                  "anchor": "Parent",
+                  "pos": [
+                    -27.0,
+                    -8.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        21816
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Warrior\\BalancedStance.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Below": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    16.0,
+                    16.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Balanced Stance Running Out",
+                  "anchor": "Parent",
+                  "pos": [
+                    -27.0,
+                    -8.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        21816
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": {
+                    "kind": "Pulse",
+                    "period": 800
+                  },
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Warrior\\BalancedStance.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Above": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    16.0,
+                    16.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Berserker Stance",
+                  "anchor": "Parent",
+                  "pos": [
+                    -43.0,
+                    8.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        14453
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Warrior\\BerserkerStance.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Below": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    16.0,
+                    16.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Berserker Stance Running Out",
+                  "anchor": "Parent",
+                  "pos": [
+                    -43.0,
+                    8.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        14453
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": {
+                    "kind": "Pulse",
+                    "period": 800
+                  },
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Warrior\\BerserkerStance.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Above": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    16.0,
+                    16.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Endure Pain",
+                  "anchor": "Parent",
+                  "pos": [
+                    -27.0,
+                    8.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        21816
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Warrior\\EndurePain.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Below": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    16.0,
+                    16.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Endure Pain Running Out",
+                  "anchor": "Parent",
+                  "pos": [
+                    -27.0,
+                    8.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        21816
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": {
+                    "kind": "Pulse",
+                    "period": 800
+                  },
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Warrior\\EndurePain.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Above": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    16.0,
+                    16.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Blood Reckoning",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    34.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        29466
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Warrior\\BloodReckoning.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Below": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Blood Reckoning Running Out",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    34.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        29466
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": {
+                    "kind": "Pulse",
+                    "period": 800
+                  },
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Warrior\\BloodReckoning.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Above": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Sight beyond Sight",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    34.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        40616
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Warrior\\SightbeyondSight.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Below": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Sight beyond Sight Running Out",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    34.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        40616
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": {
+                    "kind": "Pulse",
+                    "period": 800
+                  },
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Warrior\\SightbeyondSight.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Above": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Combat Stimulant",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    34.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        62846
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Warrior\\CombatStimulant.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Below": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Combat Stimulant Running Out",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    34.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        62846
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": {
+                    "kind": "Pulse",
+                    "period": 800
+                  },
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Warrior\\CombatStimulant.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Above": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Overcharged Cartridges",
+                  "anchor": "Parent",
+                  "pos": [
+                    -35.0,
+                    34.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        68095
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Warrior\\OverchargedCartridges.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Below": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Overcharged Cartridges Running Out",
+                  "anchor": "Parent",
+                  "pos": [
+                    -35.0,
+                    34.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        68095
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": {
+                    "kind": "Pulse",
+                    "period": 800
+                  },
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Warrior\\OverchargedCartridges.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Above": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Overcharged Cartridges Stacks",
+                  "anchor": "Parent",
+                  "pos": [
+                    -35.0,
+                    34.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        68095
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": {
+                        "Above": 2.0
+                      },
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Text",
+                  "text": "%i",
+                  "font": "MENOMONIA_BIG_XL",
+                  "align": "Center",
+                  "scale": 1.0,
+                  "color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "decoration": "Shadow",
+                  "conditions": []
+                },
+                {
+                  "enabled": true,
+                  "name": "Supercharged Cartridges",
+                  "anchor": "Parent",
+                  "pos": [
+                    -35.0,
+                    34.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        76513
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Warrior\\OverchargedCartridges.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 2.0,
+                  "border_color": [
+                    1.0,
+                    0.9152542,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Below": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Supercharged Cartridges Running Out",
+                  "anchor": "Parent",
+                  "pos": [
+                    -35.0,
+                    34.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        76513
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": {
+                    "kind": "Pulse",
+                    "period": 800
+                  },
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Warrior\\OverchargedCartridges.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 2.0,
+                  "border_color": [
+                    1.0,
+                    0.9137255,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Above": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Supercharged Cartridges Stacks",
+                  "anchor": "Parent",
+                  "pos": [
+                    -35.0,
+                    34.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        76513
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": {
+                        "Above": 2.0
+                      },
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Text",
+                  "text": "%i",
+                  "font": "MENOMONIA_BIG_XL",
+                  "align": "Center",
+                  "scale": 1.0,
+                  "color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "decoration": "Shadow",
+                  "conditions": []
+                },
+                {
+                  "enabled": true,
+                  "name": "Tactical Reload",
+                  "anchor": "Parent",
+                  "pos": [
+                    -35.0,
+                    68.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        68126
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Warrior\\TacticalReload.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    1.0,
+                    0.99999917,
+                    0.99999,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Below": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Tactical Reload Running Out",
+                  "anchor": "Parent",
+                  "pos": [
+                    -35.0,
+                    68.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        68126
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": {
+                    "kind": "Pulse",
+                    "period": 800
+                  },
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Warrior\\TacticalReload.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Above": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                }
+              ]
             },
             {
               "enabled": true,
@@ -39409,7 +42177,1269 @@
               },
               "animation": null,
               "type": "Group",
-              "members": []
+              "members": [
+                {
+                  "enabled": true,
+                  "name": "Positive Flow 1",
+                  "anchor": "Parent",
+                  "pos": [
+                    -89.0,
+                    -72.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        62836
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": {
+                        "Exact": 1.0
+                      },
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Text",
+                  "text": ">",
+                  "font": "MENOMONIA_BIG_XL",
+                  "align": "Center",
+                  "scale": 1.0,
+                  "color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "decoration": "Outline",
+                  "conditions": []
+                },
+                {
+                  "enabled": true,
+                  "name": "Positive Flow 2",
+                  "anchor": "Parent",
+                  "pos": [
+                    -89.0,
+                    -72.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        62836
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": {
+                        "Exact": 2.0
+                      },
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Text",
+                  "text": ">>",
+                  "font": "MENOMONIA_BIG_XL",
+                  "align": "Center",
+                  "scale": 1.0,
+                  "color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "decoration": "Outline",
+                  "conditions": []
+                },
+                {
+                  "enabled": true,
+                  "name": "Positive Flow 3",
+                  "anchor": "Parent",
+                  "pos": [
+                    -89.0,
+                    -72.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        62836
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": {
+                        "Exact": 3.0
+                      },
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Text",
+                  "text": ">>>",
+                  "font": "MENOMONIA_BIG_XL",
+                  "align": "Center",
+                  "scale": 1.0,
+                  "color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "decoration": "Outline",
+                  "conditions": []
+                },
+                {
+                  "enabled": true,
+                  "name": "Positive Flow 4",
+                  "anchor": "Parent",
+                  "pos": [
+                    -89.0,
+                    -72.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        62836
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": {
+                        "Exact": 4.0
+                      },
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Text",
+                  "text": ">>>>",
+                  "font": "MENOMONIA_BIG_XL",
+                  "align": "Center",
+                  "scale": 1.0,
+                  "color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "decoration": "Outline",
+                  "conditions": []
+                },
+                {
+                  "enabled": true,
+                  "name": "Positive Flow 5",
+                  "anchor": "Parent",
+                  "pos": [
+                    -89.0,
+                    -72.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        62836
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": {
+                        "Exact": 5.0
+                      },
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Text",
+                  "text": ">>>>>",
+                  "font": "MENOMONIA_BIG_XL",
+                  "align": "Center",
+                  "scale": 1.0,
+                  "color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "decoration": "Outline",
+                  "conditions": []
+                },
+                {
+                  "enabled": true,
+                  "name": "Positive Flow 6",
+                  "anchor": "Parent",
+                  "pos": [
+                    -89.0,
+                    -72.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        62836
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": {
+                        "Exact": 6.0
+                      },
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Text",
+                  "text": ">>>>>>",
+                  "font": "MENOMONIA_BIG_XL",
+                  "align": "Center",
+                  "scale": 1.0,
+                  "color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "decoration": "Outline",
+                  "conditions": []
+                },
+                {
+                  "enabled": true,
+                  "name": "Positive Flow 7",
+                  "anchor": "Parent",
+                  "pos": [
+                    -89.0,
+                    -72.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        62836
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": {
+                        "Exact": 7.0
+                      },
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Text",
+                  "text": ">>>>>>>",
+                  "font": "MENOMONIA_BIG_XL",
+                  "align": "Center",
+                  "scale": 1.0,
+                  "color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "decoration": "Outline",
+                  "conditions": []
+                },
+                {
+                  "enabled": true,
+                  "name": "Positive Flow 8",
+                  "anchor": "Parent",
+                  "pos": [
+                    -89.0,
+                    -72.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        62836
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": {
+                        "Exact": 8.0
+                      },
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Text",
+                  "text": ">>>>>>>>",
+                  "font": "MENOMONIA_BIG_XL",
+                  "align": "Center",
+                  "scale": 1.0,
+                  "color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "decoration": "Outline",
+                  "conditions": []
+                },
+                {
+                  "enabled": true,
+                  "name": "Positive Flow 9",
+                  "anchor": "Parent",
+                  "pos": [
+                    -89.0,
+                    -72.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        62836
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": {
+                        "Exact": 9.0
+                      },
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Text",
+                  "text": ">>>>>>>>>",
+                  "font": "MENOMONIA_BIG_XL",
+                  "align": "Center",
+                  "scale": 1.0,
+                  "color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "decoration": "Outline",
+                  "conditions": []
+                },
+                {
+                  "enabled": true,
+                  "name": "Positive Flow 10",
+                  "anchor": "Parent",
+                  "pos": [
+                    -89.0,
+                    -72.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        62836
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": {
+                        "Above": 10.0
+                      },
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Text",
+                  "text": ">>>>>>>>>>",
+                  "font": "MENOMONIA_BIG_XL",
+                  "align": "Center",
+                  "scale": 1.0,
+                  "color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "decoration": "Outline",
+                  "conditions": []
+                },
+                {
+                  "enabled": true,
+                  "name": "Peak Performance",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        46853
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Warrior\\PeakPerformance.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Below": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Peak Performance Running Out",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        46853
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": {
+                    "kind": "Pulse",
+                    "period": 800
+                  },
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Warrior\\PeakPerformance.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Above": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Signet Mastery",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    34.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        41922
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Warrior\\SignetMastery.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Below": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Signet Mastery Running Out",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    34.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        41922
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": {
+                    "kind": "Pulse",
+                    "period": 800
+                  },
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Warrior\\SignetMastery.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Above": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Heightened Focus",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    68.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        72970
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Warrior\\HeightenedFocus.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Below": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Heightened Focus Running Out",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    68.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        72970
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": {
+                    "kind": "Pulse",
+                    "period": 800
+                  },
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Warrior\\HeightenedFocus.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Above": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Attacker's Insight",
+                  "anchor": "Parent",
+                  "pos": [
+                    35.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        41963
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Warrior\\AttackersInsight.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Below": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Attacker's Insight Running Out",
+                  "anchor": "Parent",
+                  "pos": [
+                    35.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        41963
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": {
+                    "kind": "Pulse",
+                    "period": 800
+                  },
+                  "type": "Icon",
+                  "icon": {
+                    "File": "OzzymopsGaming\\Effects\\Warrior\\AttackersInsight.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Above": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          0.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Attacker's Insight Stacks",
+                  "anchor": "Parent",
+                  "pos": [
+                    35.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        41963
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": {
+                        "Above": 2.0
+                      },
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Text",
+                  "text": "%i",
+                  "font": "MENOMONIA_BIG_XL",
+                  "align": "Center",
+                  "scale": 1.0,
+                  "color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "decoration": "Shadow",
+                  "conditions": []
+                }
+              ]
             },
             {
               "enabled": true,

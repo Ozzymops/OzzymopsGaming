@@ -93,6 +93,45 @@
 - Vindicator => Forerunner of Death: effect duration
 - Vindicator => Saint of zu Heltzer: effect duration
 
+## Warrior
+### Skills
+- Mace: Counterblow (Mace 2) effect duration
+- Pistol: Dragon's Roar (Pistol 5) ammo count
+- Shield: Shield Stance (Shield 5) effect duration
+- Torch: Flames of War (Torch 5) effect duration
+- Defiant Stance, Balanced Stance, Berserker Stance, Endure Pain (Core Heal and Utilities): effect duration
+- Rampage (Core Elite): effect duration
+- Blood Reckoning (Berserker Heal): effect duration
+- Sight beyond Sight (Spellbreaker Utility): effect duration
+- Combat Stimulant (Bladesworn Heal): effect duration
+- Flow Stabilizer (Bladesworn Utility), Swift as the Wind (Bladesworn Trait), Unseen Sword (Bladesworn Trait): Positive Flow effect stacks and duration
+- Overcharged Cartridges (Bladesworn Utility): Overcharged/Supercharged Cartridges effect stacks and duration
+- Tactical Reload (Bladesworn Utility): effect duration
+### Profession Mechanics
+- Adrenaline (Core Resource): bar visible above Health bar; ticks at 33% and 66%, single tick at 50% if Spellbreaker; tremble if full)
+- Burst (Core F1): available Burst, resource availability, and cooldown
+- Berserk (Berserker F2): cooldown (tremble if Adrenaline is full)
+- Eternal Champion (Berserker Trait): visible if trait is slotted and while Berserk
+- Primal Burst (Berserker F1): available Primal Burst and cooldown
+- Full Counter (Spellbreaker F2): cooldown
+- Unsheathe Gunsaber (Bladesworn F1): cooldown
+- Dragon Trigger (Bladesworn F2): cooldown
+- Flow (Bladesworn Adrenaline): replaces Adrenaline bar with no ticks
+- Charge (Bladesworn Resource): visible above Adrenaline bar while in Dragon Trigger
+### Traits
+- Strength => Peak Performance: effect duration
+- Strength => Pinnacle of Strength, Might Makes Right: glowing border around Might
+- Strength => Aggressive Onslaught: glowing border around Quickness
+- Arms => Furious Burst, Deep Strikes: glowing border around Fury
+- Arms => Signet Mastery: effect stacks and duration
+- Defense => Hardened Armor: glowing border around Resolution
+- Defense => Stalwart Strength: glowing border around Stability
+- Discipline => Warrior's Sprint: glowing border around Swiftness
+- Discipline => Heightened Focus: effect duration
+- Spellbreaker => Attacker's Insight: effect duration
+
+------------
+
 # Planned features:
 ## Guardian
 ### Profession Mechanic
@@ -105,47 +144,12 @@
 
 ## Warrior
 ### Skills
-- Mace: Counterblow (Mace 2) effect duration
-- Pistol: Dragon's Roar (Pistol 5) ammo count
-- Shield: Shield Stance (Shield 5) effect duration
 - Staff: Bullet Catcher (Staff 5) effect stacks and duration
 - Sword: Impale (Sword 4) effect duration?, Riposte (Sword 5) effect duration
-- Torch: Flames of War (Torch 5) effect duration
-- Defiant Stance, Balanced Stance, Berserker Stance, Endure Pain (Core Heal and Utilities): effect duration
-- Signet of Fury (Core Utility): effect duration
-- Rampage (Core Elite): effect duration
-- Blood Reckoning (Berserker Heal): effect duration
-- Sight beyond Sight (Spellbreaker Utility): effect duration
-- Combat Stimulant (Bladesworn Heal): effect duration
-- Flow Stabilizer (Bladesworn Utility), Swift as the Wind (Bladesworn Trait), Unseen Sword (Bladesworn Trait): Positive Flow effect stacks and duration
-- Overcharged Cartridges (Bladesworn Utility): Overcharged/Supercharged Cartridges effect stacks and duration
-- Tactical Reload (Bladesworn Utility): effect duration
 - "We Will Never Yield!" (Paragon Elite): effect duration
 ### Profession Mechanics
-- Adrenaline (Core Resource): bar visible above Health bar; ticks at 33% and 66%, single tick at 50% if Spellbreaker; tremble if full)
-- Burst (Core F1): available Burst, resource availability, and cooldown
-- Berserk (Berserker F2): cooldown (tremble if Adrenaline is full)
-- Eternal Champion (Berserker Trait): visible if trait is slotted and while Berserk
-- Primal Burst (Berserker F1): available Primal Burst and cooldown
-- Full Counter (Spellbreaker F2): cooldown
-- Unsheathe Gunsaber (Bladesworn F1): cooldown
-- Dragon Trigger (Bladesworn F2): cooldown
-- Flow (Bladesworn Adrenaline): replaces Adrenaline bar with no ticks
-- Charge (Bladesworn Resource): visible above Adrenaline bar while in Dragon Trigger
 - Chant of Action, Chant of Recuperation, Chant of Freedom (Paragon F2, F3, F4): Refrain active effect?
 - Motivation (Paragon Resource): visible above Adrenaline bar
-### Traits
-- Strength => Peak Performance: effect duration
-- Strength => Pinnacle of Strength, Might Makes Right: glowing border around Might
-- Strength => Aggressive Onslaught: glowing border around Quickness
-- Arms => Furious Burst, Deep Strikes: glowing border around Fury
-- Arms => Signet Mastery: effect stacks and duration
-- Defense => Hardened Armour: glowing border around Resolution
-- Defense => Stalwart Strength: glowing border around Stability
-- Discipline => Warrior's Sprint: glowing border around Swiftness
-- Discipline => Heightened Focus: effect duration
-- Berserker => Burst of Aggression: effect duration
-- Spellbreaker => Attacker's Insight: effect duration
 
 ## Engineer
 ### Skills

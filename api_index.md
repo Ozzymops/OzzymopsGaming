@@ -254,11 +254,11 @@ Energy Meld: 62757, 72058
 Alliance Tactics: 62729
 
 ## Warrior
-Eviscerate: 14353, 14422, 14423, 14424
-Breaching Strike: 45252
+Eviscerate: 14353, 14422, 14423, 14424, 43566
+Breaching Strike: 45252, 69245, 69297, 69392, 69433
 Skull Crack: 14414, 14425, 14426, 14427
 Flurry: 14367, 14428, 14429, 14430
-Arcing Slice: 14375, 14545, 14546, 14547
+Arcing Slice: 14375, 14545, 14546, 14547, 42707
 Earthshaker: 14387, 14512, 14513, 14514
 Combustive Shot: 14506, 14520, 14521, 14522
 Kill Shot: 14396, 14473, 14474, 14475
@@ -449,7 +449,39 @@ Forerunner of Death: 62811
 Saint of zu Heltzer: 62994
 
 ## Warrior
+Counterblow Skill: 14548
+Dragon's Roar Skill: 62800
+Shield Stance: 756, 860, 2128, 32264
+Flames of War: 31708
+Signet of Fury: 14459
+Defiant Stance: 21816
+Balanced Stance: 34778
+Berserker Stance: 14453
+Endure Pain: 787
+Rampage: 7734, 14484
+Blood Reckoning: 29466
+Sight beyond Sight: 40616
+Combat Stimulant: 62846
+Positive Flow: 62836
+Overcharged Cartridges: 68095
+Supercharged Cartridges: 76513
+Tactical Reload: 68126
 Berserk: 29502
+Full Counter: 43949
+Dragon Trigger: 62823
+Peak Performance: 46853
+Pinnacle of Strength: 1453
+Might Makes Right: 1454
+Aggressive Onslaught: 1440
+Furious Burst: 1342
+Deep Strikes: 1343
+Signet Mastery: 41922
+Hardened Armor: 1380
+Stalwart Strength: 1708
+Warrior's Sprint: 1413
+Heightened Focus: 72970
+Attacker's Insight: 41963
+Daring Dragon: 2245
 
 ## Engineer
 
