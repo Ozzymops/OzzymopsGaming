@@ -42728,6 +42728,1272 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Bladesworn",
+                  "anchor": "Parent",
+                  "pos": [
+                    90.0,
+                    28.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": "Inherit",
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [
+                        "Bladesworn"
+                      ],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Group",
+                  "members": [
+                    {
+                      "enabled": true,
+                      "name": "Flow Bar",
+                      "anchor": "Parent",
+                      "pos": [
+                        -90.0,
+                        -13.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": "PrimaryResource",
+                        "threshold": {
+                          "threshold_type": "Always",
+                          "amount_type": "Percent"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [
+                            "Bladesworn"
+                          ],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Bar",
+                      "progress_kind": "Duration",
+                      "max": 100.0,
+                      "lower_bound": 0.0,
+                      "upper_bound": 1.0,
+                      "fill": [
+                        1.0,
+                        0.77966076,
+                        0.0,
+                        1.0
+                      ],
+                      "background": [
+                        0.39607844,
+                        0.30980393,
+                        0.0,
+                        0.39215687
+                      ],
+                      "border_size": 1.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "tick_size": 1.0,
+                      "tick_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "size": [
+                        128.0,
+                        8.0
+                      ],
+                      "align": "Center",
+                      "direction": "Right",
+                      "tick_unit": "Percent",
+                      "ticks": []
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Charge Bar",
+                      "anchor": "Parent",
+                      "pos": [
+                        -90.0,
+                        -20.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": "SecondaryResource",
+                        "threshold": {
+                          "threshold_type": {
+                            "Below": 99.99
+                          },
+                          "amount_type": "Percent"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [
+                            "Bladesworn"
+                          ],
+                          "weapons": [],
+                          "traits": [
+                            {
+                              "id": 2245,
+                              "present": false
+                            }
+                          ],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Bar",
+                      "progress_kind": "Duration",
+                      "max": 100.0,
+                      "lower_bound": 0.0,
+                      "upper_bound": 1.0,
+                      "fill": [
+                        1.0,
+                        0.87557024,
+                        0.43502825,
+                        1.0
+                      ],
+                      "background": [
+                        0.29803923,
+                        0.25882354,
+                        0.1254902,
+                        0.39215687
+                      ],
+                      "border_size": 1.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "tick_size": 1.0,
+                      "tick_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "size": [
+                        128.0,
+                        8.0
+                      ],
+                      "align": "Center",
+                      "direction": "Right",
+                      "tick_unit": "Percent",
+                      "ticks": [
+                        0.1,
+                        0.2,
+                        0.3,
+                        0.4,
+                        0.5,
+                        0.6,
+                        0.7,
+                        0.8,
+                        0.9
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Charge Bar Full",
+                      "anchor": "Parent",
+                      "pos": [
+                        -90.0,
+                        -20.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": "SecondaryResource",
+                        "threshold": {
+                          "threshold_type": {
+                            "Above": 100.0
+                          },
+                          "amount_type": "Percent"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [
+                            "Bladesworn"
+                          ],
+                          "weapons": [],
+                          "traits": [
+                            {
+                              "id": 2245,
+                              "present": false
+                            }
+                          ],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": {
+                        "kind": {
+                          "Shake": {
+                            "intensity": 3.0
+                          }
+                        },
+                        "period": 100
+                      },
+                      "type": "Bar",
+                      "progress_kind": "Duration",
+                      "max": 100.0,
+                      "lower_bound": 0.0,
+                      "upper_bound": 1.0,
+                      "fill": [
+                        1.0,
+                        0.8745098,
+                        0.43529412,
+                        1.0
+                      ],
+                      "background": [
+                        0.29803923,
+                        0.25882354,
+                        0.1254902,
+                        0.39215687
+                      ],
+                      "border_size": 1.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "tick_size": 1.0,
+                      "tick_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "size": [
+                        128.0,
+                        8.0
+                      ],
+                      "align": "Center",
+                      "direction": "Right",
+                      "tick_unit": "Percent",
+                      "ticks": [
+                        0.1,
+                        0.2,
+                        0.3,
+                        0.4,
+                        0.5,
+                        0.6,
+                        0.7,
+                        0.8,
+                        0.9
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Charge Bar Daring Dragon",
+                      "anchor": "Parent",
+                      "pos": [
+                        -90.0,
+                        -20.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": "SecondaryResource",
+                        "threshold": {
+                          "threshold_type": {
+                            "Below": 99.99
+                          },
+                          "amount_type": "Percent"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [
+                            "Bladesworn"
+                          ],
+                          "weapons": [],
+                          "traits": [
+                            {
+                              "id": 2245,
+                              "present": true
+                            }
+                          ],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Bar",
+                      "progress_kind": "Duration",
+                      "max": 100.0,
+                      "lower_bound": 0.0,
+                      "upper_bound": 1.0,
+                      "fill": [
+                        1.0,
+                        0.87557024,
+                        0.43502825,
+                        1.0
+                      ],
+                      "background": [
+                        0.29803923,
+                        0.25882354,
+                        0.1254902,
+                        0.39215687
+                      ],
+                      "border_size": 1.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "tick_size": 1.0,
+                      "tick_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "size": [
+                        64.0,
+                        8.0
+                      ],
+                      "align": "Center",
+                      "direction": "Right",
+                      "tick_unit": "Percent",
+                      "ticks": [
+                        0.2,
+                        0.4,
+                        0.6,
+                        0.8
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Charge Bar Daring Dragon Full",
+                      "anchor": "Parent",
+                      "pos": [
+                        -90.0,
+                        -20.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": "SecondaryResource",
+                        "threshold": {
+                          "threshold_type": {
+                            "Above": 100.0
+                          },
+                          "amount_type": "Percent"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [
+                            "Bladesworn"
+                          ],
+                          "weapons": [],
+                          "traits": [
+                            {
+                              "id": 2245,
+                              "present": true
+                            }
+                          ],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": {
+                        "kind": {
+                          "Shake": {
+                            "intensity": 3.0
+                          }
+                        },
+                        "period": 100
+                      },
+                      "type": "Bar",
+                      "progress_kind": "Duration",
+                      "max": 100.0,
+                      "lower_bound": 0.0,
+                      "upper_bound": 1.0,
+                      "fill": [
+                        1.0,
+                        0.8745098,
+                        0.43529412,
+                        1.0
+                      ],
+                      "background": [
+                        0.29803923,
+                        0.25882354,
+                        0.1254902,
+                        0.39215687
+                      ],
+                      "border_size": 1.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "tick_size": 1.0,
+                      "tick_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "size": [
+                        64.0,
+                        8.0
+                      ],
+                      "align": "Center",
+                      "direction": "Right",
+                      "tick_unit": "Percent",
+                      "ticks": [
+                        0.2,
+                        0.4,
+                        0.6,
+                        0.8
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Gunsaber",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": "Inherit",
+                        "threshold": {
+                          "threshold_type": "Always",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Group",
+                      "members": [
+                        {
+                          "enabled": true,
+                          "name": "Unsheathe Gunsaber",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": {
+                              "Ability": [
+                                62745
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": "Always",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "File": "OzzymopsGaming\\Skills\\Warrior\\UnsheatheGunsaber.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            48.0,
+                            48.0
+                          ]
+                        },
+                        {
+                          "enabled": true,
+                          "name": "Sheathe Gunsaber",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": {
+                              "Ability": [
+                                62861
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": "Always",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "File": "OzzymopsGaming\\Skills\\Warrior\\SheatheGunsaber.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            48.0,
+                            48.0
+                          ]
+                        },
+                        {
+                          "enabled": true,
+                          "name": "Un/sheathe Gunsaber Cooldown Overlay",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 0.4,
+                          "trigger": {
+                            "source": {
+                              "Ability": [
+                                62745,
+                                62861
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": "Missing",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "File": "OzzymopsGaming\\Pixel.png"
+                          },
+                          "tint": [
+                            0.000001,
+                            9.9999e-7,
+                            9.9999e-7,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            48.0,
+                            48.0
+                          ]
+                        },
+                        {
+                          "enabled": true,
+                          "name": "Un/sheathe Gunsaber Cooldown",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": {
+                              "Ability": [
+                                62745,
+                                62861
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": "Missing",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Text",
+                          "text": "%c",
+                          "font": "MENOMONIA_BIG_XL",
+                          "align": "Center",
+                          "scale": 1.2,
+                          "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "decoration": "None",
+                          "conditions": []
+                        }
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Dragon Trigger",
+                      "anchor": "Parent",
+                      "pos": [
+                        51.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": "Inherit",
+                        "threshold": {
+                          "threshold_type": "Always",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Group",
+                      "members": [
+                        {
+                          "enabled": true,
+                          "name": "Dragon Trigger",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": {
+                              "Ability": [
+                                62803
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": "Always",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "File": "OzzymopsGaming\\Skills\\Warrior\\DragonTrigger.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            48.0,
+                            48.0
+                          ]
+                        },
+                        {
+                          "enabled": true,
+                          "name": "Dragon Trigger Cooldown Overlay",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 0.4,
+                          "trigger": {
+                            "source": {
+                              "Ability": [
+                                62803
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": "Missing",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "File": "OzzymopsGaming\\Pixel.png"
+                          },
+                          "tint": [
+                            0.000001,
+                            9.9999e-7,
+                            9.9999e-7,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            48.0,
+                            48.0
+                          ]
+                        },
+                        {
+                          "enabled": true,
+                          "name": "Dragon Trigger Cooldown",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": {
+                              "Ability": [
+                                62803
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": "Missing",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Text",
+                          "text": "%c",
+                          "font": "MENOMONIA_BIG_XL",
+                          "align": "Center",
+                          "scale": 1.2,
+                          "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "decoration": "None",
+                          "conditions": []
+                        },
+                        {
+                          "enabled": true,
+                          "name": "Insufficient Resource",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": "PrimaryResource",
+                            "threshold": {
+                              "threshold_type": {
+                                "Below": 10.0
+                              },
+                              "amount_type": "Percent"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "File": "OzzymopsGaming\\Insufficient Resource.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            48.0,
+                            48.0
+                          ]
+                        },
+                        {
+                          "enabled": true,
+                          "name": "Dragon Trigger Background",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": {
+                              "Buff": [
+                                62823
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": "Present",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "File": "OzzymopsGaming\\Skills\\Warrior\\DragonTrigger.png"
+                          },
+                          "tint": [
+                            0.39215687,
+                            0.39215687,
+                            0.39215687,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            48.0,
+                            48.0
+                          ]
+                        },
+                        {
+                          "enabled": true,
+                          "name": "Dragon Trigger Active",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": {
+                              "Buff": [
+                                62823
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": "Present",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": {
+                            "kind": "Pulse",
+                            "period": 800
+                          },
+                          "type": "Icon",
+                          "icon": {
+                            "File": "OzzymopsGaming\\Skills\\Warrior\\DragonTrigger.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [
+                            {
+                              "trigger": {
+                                "ProgressThreshold": {
+                                  "threshold_type": {
+                                    "Below": 5.0
+                                  },
+                                  "amount_type": "Duration"
+                                }
+                              },
+                              "properties": {
+                                "tint": [
+                                  1.0,
+                                  1.0,
+                                  1.0,
+                                  0.0
+                                ],
+                                "zoom": null,
+                                "round": null,
+                                "border_size": null,
+                                "border_color": null
+                              }
+                            }
+                          ],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            48.0,
+                            48.0
+                          ]
+                        },
+                        {
+                          "enabled": true,
+                          "name": "Dragon Trigger Running Out",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": {
+                              "Buff": [
+                                62823
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": "Present",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": {
+                            "kind": "Pulse",
+                            "period": 400
+                          },
+                          "type": "Icon",
+                          "icon": {
+                            "File": "OzzymopsGaming\\Skills\\Warrior\\DragonTrigger.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [
+                            {
+                              "trigger": {
+                                "ProgressThreshold": {
+                                  "threshold_type": {
+                                    "Above": 5.0
+                                  },
+                                  "amount_type": "Duration"
+                                }
+                              },
+                              "properties": {
+                                "tint": [
+                                  1.0,
+                                  1.0,
+                                  1.0,
+                                  0.0
+                                ],
+                                "zoom": null,
+                                "round": null,
+                                "border_size": null,
+                                "border_color": null
+                              }
+                            }
+                          ],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            48.0,
+                            48.0
+                          ]
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }
