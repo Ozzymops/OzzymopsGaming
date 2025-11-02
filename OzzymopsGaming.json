@@ -56,7 +56,7 @@
       },
       "filter": {
         "player": {
-          "combat": null,
+          "combat": true,
           "specs": [],
           "weapons": [],
           "traits": [],
@@ -19120,7 +19120,7 @@
       ]
     },
     {
-      "enabled": false,
+      "enabled": true,
       "name": "Mounts",
       "anchor": "Parent",
       "pos": [
@@ -23389,11 +23389,13 @@
       },
       "filter": {
         "player": {
-          "combat": null,
+          "combat": true,
           "specs": [],
           "weapons": [],
           "traits": [],
-          "mounts": []
+          "mounts": [
+            "None"
+          ]
         },
         "map": {
           "category": [],
@@ -50260,6 +50262,204 @@
                             }
                           ]
                         }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Galeshot",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": "Inherit",
+                    "threshold": {
+                      "threshold_type": "Always",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [
+                        "Galeshot"
+                      ],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Group",
+                  "members": [
+                    {
+                      "enabled": true,
+                      "name": "Arrows",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        15.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": "PrimaryResource",
+                        "threshold": {
+                          "threshold_type": "Always",
+                          "amount_type": "Percent"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Bar",
+                      "progress_kind": "SecondaryDuration",
+                      "max": 8.0,
+                      "lower_bound": 0.0,
+                      "upper_bound": 1.0,
+                      "fill": [
+                        0.6192444,
+                        0.94350284,
+                        0.426442,
+                        1.0
+                      ],
+                      "background": [
+                        0.61960787,
+                        0.94509804,
+                        0.42745098,
+                        0.39215687
+                      ],
+                      "border_size": 1.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "tick_size": 1.0,
+                      "tick_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "size": [
+                        128.0,
+                        8.0
+                      ],
+                      "align": "Center",
+                      "direction": "Right",
+                      "tick_unit": "Absolute",
+                      "ticks": [
+                        1.0,
+                        2.0,
+                        3.0,
+                        4.0,
+                        5.0,
+                        6.0,
+                        7.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Wind Force",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        8.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            76855
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Always",
+                          "amount_type": "Percent"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Bar",
+                      "progress_kind": "Intensity",
+                      "max": 5.0,
+                      "lower_bound": 0.0,
+                      "upper_bound": 1.0,
+                      "fill": [
+                        0.03954804,
+                        1.0,
+                        0.9837209,
+                        1.0
+                      ],
+                      "background": [
+                        0.039215688,
+                        1.0,
+                        0.9843137,
+                        0.39215687
+                      ],
+                      "border_size": 1.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "tick_size": 1.0,
+                      "tick_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "size": [
+                        128.0,
+                        8.0
+                      ],
+                      "align": "Center",
+                      "direction": "Right",
+                      "tick_unit": "Percent",
+                      "ticks": [
+                        0.2,
+                        0.4,
+                        0.6,
+                        0.8
                       ]
                     }
                   ]
